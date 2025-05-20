@@ -2,54 +2,82 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Theafox Books</title>
   <style>
     body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
       background-color: #0e0e0e;
       color: #ffffff;
-      font-family: sans-serif;
       text-align: center;
-      padding-top: 4rem;
+      padding: 2rem;
+    }
+
+    header {
+      padding: 2rem 0;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #c99d49;
+      margin: 0;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 1rem auto;
+      font-size: 1.2rem;
+      line-height: 1.5;
     }
 
     img {
       max-width: 120px;
-      margin-bottom: 2rem;
+      margin-top: 1rem;
     }
 
-    h1 {
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #ccc;
+    }
+
+    a {
       color: #c99d49;
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
+      text-decoration: none;
     }
 
-    p {
-      font-size: 1.2rem;
-      max-width: 600px;
-      margin: 0 auto 2rem;
+    a:hover {
+      text-decoration: underline;
     }
 
-    a.button {
+    .button {
       display: inline-block;
-      padding: 1rem 2rem;
-      background-color: #c99d49;
+      margin-top: 2rem;
+      padding: 0.8rem 1.6rem;
+      background: #c99d49;
       color: #0e0e0e;
       font-weight: bold;
-      text-decoration: none;
       border-radius: 8px;
-      margin-top: 2rem;
-      transition: background-color 0.3s ease;
+      text-decoration: none;
+      transition: 0.3s;
     }
 
-    a.button:hover {
-      background-color: #b88b3d;
+    .button:hover {
+      background: #b88b3d;
     }
   </style>
 </head>
 <body>
-  <img src="theafox_logo.jpg" alt="Theafox Logo" />
-  <h1>Willkommen bei Theafox Books</h1>
-  <p>Entdecken Sie unsere Bücher direkt bei Amazon.</p>
-  <a class="button" href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3?language=en&ref=sr_ntt_srch_lnk_2&qid=1747740129&sr=8-2&isDramIntegrated=true&shoppingPortalEnabled=true" target="_blank">Jetzt ansehen</a>
+  <header>
+    <img src="theafox_logo.jpg" alt="Theafox Logo" />
+    <h1>Willkommen bei Theafox Books</h1>
+    <p>Bücher, die mit Herz, Fantasie und Visionen erschaffen wurden. Entdecke unser wachsendes Sortiment – von spirituellen Impulsen bis zu kreativen Lernbüchern.</p>
+    <a href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3" target="_blank" class="button">Jetzt auf Amazon ansehen</a>
+  </header>
+
+  <footer>
+    &copy; 2025 Theafox Books – Eine Marke von Andrea Kramer
+  </footer>
 </body>
 </html>
