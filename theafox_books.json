@@ -9,6 +9,16 @@
       "featured": true,
       "platform": "Amazon"
     },
+  {
+      "title": "Kid friendly Halloween word search fun.",
+      "subtitle": "55 Kid friendly Halloween word search puzzles",
+      "img": "Kid friendly Halloween_Word Search.jpg",
+      "href": "https://www.amazon.de/dp/B0FPQCJ2LF",
+      "category": "Word Search",
+      "author": "Andrea Kramer",
+      "featured": true,
+      "platform": "Amazon"
+    },
     {
       "title": "Wickedly Wordy",
       "subtitle": "Halloween word search fun.",
@@ -30,4 +40,5 @@
       "platform": "Amazon"
     }
   ]
+
 
