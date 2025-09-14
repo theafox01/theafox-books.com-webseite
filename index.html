@@ -107,7 +107,8 @@
     const y = byId('y'); y.textContent = new Date().getFullYear();
 
     const params = new URLSearchParams(location.search);
-    let DATA_SRC = params.get('data') || 'inline';
+    //let DATA_SRC = params.get('data') || 'inline';
+    let DATA_SRC = params.get('data') || 'theafox_books.json';
 
     const state = { items: [], view: [], cats: [] };
 
@@ -226,3 +227,4 @@ function render(){
   </script>
 </body>
 </html>
+
