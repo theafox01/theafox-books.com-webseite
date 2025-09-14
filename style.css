@@ -1,0 +1,146 @@
+:root{
+  --bg:#0e0e0e; --fg:#ffffff; --muted:#b8b8b8; --accent:#c99d49; --card:#161616; --card2:#1d1d1d; --ring:#2a2a2a;
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Inter,sans-serif; background:var(--bg); color:var(--fg);
+  -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
+}
+
+header{padding:2.5rem 1rem 1rem; text-align:center}
+header img.logo{width:96px; height:auto; display:block; margin:0 auto .75rem auto}
+h1{margin:.25rem 0 0; font-size:clamp(1.75rem,2.8vw,2.5rem); color:var(--accent)}
+p.lead{max-width:860px; margin:.75rem auto 1.5rem; color:var(--muted); line-height:1.55}
+
+.container{max-width:1200px; margin:0 auto; padding:0 1rem 2.5rem}
+
+/* Controls */
+.controls{
+  display:grid; grid-template-columns:1fr; gap:.75rem;
+  background:linear-gradient(180deg, #121212, #0f0f0f);
+  border:1px solid var(--ring); padding:1rem; border-radius:16px;
+  position:sticky; top:0; z-index:1; backdrop-filter:blur(8px)
+}
+@media(min-width:760px){.controls{grid-template-columns:1.1fr .9fr .9fr auto}}
+.controls label{font-size:.85rem; color:var(--muted)}
+.field{
+  display:flex; gap:.5rem; align-items:center;
+  background:var(--card); border:1px solid var(--ring); padding:.5rem .6rem; border-radius:12px
+}
+
+/* Eingabefeld + Select */
+.field input[type="search"],
+.field select{
+  flex:1;
+  background:#161616;           /* fix für Firefox */
+  color:#ffffff;
+  border:none;
+  outline:none;
+  font-size:1rem;
+  color-scheme: dark;
+  appearance:none; -moz-appearance:none;
+}
+
+.toggle{display:flex; align-items:center; gap:.5rem; background:var(--card); border:1px solid var(--ring); padding:.55rem .7rem; border-radius:12px; white-space:nowrap}
+.toggle input{accent-color:var(--accent)}
+
+/* Dropdown Options */
+select option{
+  background:#161616 !important;
+  color:#ffffff !important;
+}
+select option:hover{
+  background:#a37a2c !important;
+  color:#ffffff !important;
+}
+select option:checked,
+select option:focus{
+  background:#c99d49 !important;
+  color:#111 !important;
+}
+select:focus{outline:2px solid var(--accent)}
+
+/* Zusätzliche Firefox-Sicherung */
+@-moz-document url-prefix() {
+  select option{
+    background:#161616 !important;
+    color:#ffffff !important;
+  }
+  select option:hover{
+    background:#a37a2c !important;
+    color:#ffffff !important;
+  }
+  select option:checked,
+  select option:focus{
+    background:#c99d49 !important;
+    color:#111 !important;
+  }
+}
+
+/* Grid */
+.grid{display:grid; grid-template-columns:1fr; gap:1rem; margin-top:1rem}
+@media(min-width:620px){.grid{grid-template-columns:repeat(2,1fr)}}
+@media(min-width:980px){.grid{grid-template-columns:repeat(3,1fr)}}
+
+.card{
+  display:block; text-decoration:none; color:inherit;
+  background:linear-gradient(180deg, var(--card), var(--card2));
+  border:1px solid var(--ring); border-radius:18px; overflow:hidden;
+  transition:transform .2s ease, border-color .2s ease
+}
+.card:hover{transform:translateY(-2px); border-color:#3a3a3a}
+.thumb{aspect-ratio:3/4; width:100%; object-fit:cover; background:#0c0c0c}
+.body{padding:0.9rem 0.9rem 1rem}
+.title{font-size:1.05rem; font-weight:700; line-height:1.25}
+.subtitle{font-size:.95rem; color:var(--muted); margin:.35rem 0 .6rem}
+.meta{display:flex; gap:.5rem; flex-wrap:wrap; align-items:center}
+.chip{font-size:.72rem; padding:.25rem .5rem; border:1px solid var(--ring); border-radius:999px; color:#e8e8e8}
+.badge{font-size:.72rem; padding:.25rem .5rem; border-radius:6px; background:rgba(201,157,73,.12); color:var(--accent); border:1px solid rgba(201,157,73,.35)}
+
+.source-badge{ text-align:center; margin-bottom:.5rem; font-size:.9rem; color:var(--muted) }
+.status{ margin-top:.75rem; color:var(--muted); text-align:center }
+
+/* CTA Buttons */
+.cta{margin:2rem 0 0; display:flex; gap:.75rem; flex-wrap:wrap; justify-content:center}
+.btn{
+  appearance:none;
+  border:none;
+  cursor:pointer;
+  text-decoration:none;
+  color:#111;
+  background:var(--accent);
+  padding:.85rem 1.1rem;
+  border-radius:999px;
+  font-weight:700;
+  transition:transform .2s ease, background-color .2s ease, color .2s ease;
+}
+.btn:hover{
+  transform:translateY(-2px);
+  background:#d4af37; /* helleres Gold beim Hover */
+}
+
+.btn.secondary{
+  background:#222;
+  color:#eee;
+  border:1px solid var(--ring);
+  transition:transform .2s ease, background-color .2s ease, color .2s ease;
+}
+.btn.secondary:hover{
+  transform:translateY(-2px);
+  background:#333;  /* leicht helleres Grau */
+  color:#fff;       /* weiße Schrift */
+}
+
+footer{padding:2rem 1rem; text-align:center; color:var(--muted); font-size:.9rem}
+
+/* Footer Links */
+footer a{
+  color:var(--accent);
+  text-decoration:none;
+  font-weight:500;
+}
+footer a:hover{
+  color:#ffffff;
+  text-decoration:underline;
+}

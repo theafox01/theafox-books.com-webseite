@@ -2,97 +2,227 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Theafox Books</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background-color: #0e0e0e;
-      color: #ffffff;
-      text-align: center;
-      padding: 2rem;
-    }
-
-    header {
-      padding: 2rem 0;
-    }
-
-    h1 {
-      font-size: 2.5rem;
-      color: #c99d49;
-      margin: 0;
-    }
-
-    p {
-      max-width: 600px;
-      margin: 1rem auto;
-      font-size: 1.2rem;
-      line-height: 1.5;
-    }
-
-    img {
-      max-width: 120px;
-      margin-top: 1rem;
-    }
-
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #ccc;
-    }
-
-    a {
-      color: #c99d49;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    .button {
-      display: inline-block;
-      margin: 0.8rem;
-      padding: 0.8rem 1.6rem;
-      background: #c99d49;
-      color: #0e0e0e;
-      font-weight: bold;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .button:hover {
-      background: #b88b3d;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Theafox Books – Storefront</title>
+  <meta name="description" content="JSON-gesteuerte Übersicht der Theafox-Bücher mit Filter, Suche und externen Kauf-Links." />
+  <link rel="stylesheet" href="style.css?v=3" />
 </head>
+
 <body>
   <header>
-    <img src="theafox_logo.jpg" alt="Theafox Logo" />
+    <img class="logo" src="theafox_logo.jpg" alt="Theafox Books Logo" onerror="this.style.display='none'" />
     <h1>Welcome to the world of Theafox Books</h1>
-    <p>
+    <p class="lead">
       Stories, guides, and ideas with heart, imagination, and depth.<br>
       At Theafox Books, created by Andrea and Paul Kramer, you’ll find inspiring reflections, creative puzzle and learning tools, and beautifully illustrated tales – plus unique extras and digital downloads in our shop.<br>
       A growing collection for curious minds, little explorers, and big dreamers alike.
     </p>
-
-    <!-- Bestehende Buttons -->
-    <a href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3" target="_blank" class="button">Discover Andrea's Books</a>
-    <a href="https://www.amazon.com/stores/Paul-Kramer/author/B0FDL28XWH" target="_blank" class="button">Explore Paul's Books</a>
-
-    <!-- Neue Buttons -->
-    <a href="https://payhip.com/Theafox" target="_blank" class="button">Discover More in our Onlineshop</a>
-    <a href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3/allbooks" target="_blank" class="button">Browse Theafox Word Search Books</a>
   </header>
 
+  <main class="container">
+    <section class="controls" aria-label="Filter und Suche">
+      <div class="field" title="Produkte durchsuchen">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M21 21l-4.35-4.35" stroke="#777" stroke-width="2" stroke-linecap="round"/>
+          <circle cx="11" cy="11" r="7" stroke="#777" stroke-width="2" fill="none"/>
+        </svg>
+        <input id="q" type="search" placeholder="Suchen nach Titel, Untertitel, Autor…" autocomplete="off" />
+      </div>
+      <div class="field">
+        <label for="cat">Kategorie</label>
+        <select id="cat" aria-label="Kategorie filtern"><option value="">All</option></select>
+      </div>
+      <div class="field">
+        <label for="plat">Plattform</label>
+        <select id="plat" aria-label="Plattform filtern"><option value="">All</option><option>Amazon</option><option>Payhip</option></select>
+      </div>
+      <label class="toggle" title="Show only highlights">
+        <input id="feat" type="checkbox" checked /> Show only highlights
+      </label>
+    </section>
+
+    <section style="margin-top:1rem">
+      <div id="sourceBadge" style="text-align:center; margin-bottom:.5rem; font-size:.9rem; color:var(--muted)"></div>
+      <div id="storeGrid" class="grid" role="list" aria-label="Produkte"></div>
+      <div id="status" style="margin-top:.75rem; color:var(--muted); text-align:center"></div>
+    </section>
+
+    <!-- CTA Buttons -->
+    <nav class="cta" aria-label="Weiterführende Links">
+      <a class="btn" href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3" target="_blank" rel="noopener">Discover Andrea's Books</a>
+      <a class="btn" href="https://www.amazon.com/stores/Paul-Kramer/author/B0FDL28XWH" target="_blank" rel="noopener">Explore Paul's Books</a>
+      <a class="btn" href="https://payhip.com/Theafox" target="_blank" rel="noopener">Discover More in our Onlineshop</a>
+      <a class="btn" href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3/allbooks" target="_blank" rel="noopener">Browse Theafox Word Search Books</a>
+      <a class="btn secondary" href="mailto:info@theafox-books.com">Contact Us</a>
+    </nav>
+  </main>
+
   <footer>
-    &copy; 2025 Theafox Books – A brand by Andrea & Paul Kramer
+    © <span id="y"></span> Theafox Books – A brand by Andrea & Paul Kramer
+    <br>
+    <a href="legal-notice.html">Legal Notice</a> · <a href="privacy-policy.html">Privacy Policy</a>
   </footer>
+
+  <!-- Inline JSON Daten -->
+  <script id="storeData" type="application/json">
+  [
+    {
+      "title": "The Stoic’s Notebook",
+      "subtitle": "Daily reflections for clarity and calm.",
+      "img": "covers/stoics-notebook.jpg",
+      "href": "https://www.amazon.de/dp/B0FDB85T29",
+      "category": "Philosophy",
+      "author": "Paul Kramer",
+      "featured": true,
+      "platform": "Amazon"
+    },
+    {
+      "title": "Wickedly Wordy",
+      "subtitle": "Halloween word search fun.",
+      "img": "covers/Witch Halloween_Word Search.jpg",
+      "href": "https://www.amazon.de/dp/B0FPQ9PW2V",
+      "category": "Word Search",
+      "author": "Andrea Kramer",
+      "featured": true,
+      "platform": "Amazon"
+    },
+    {
+      "title": "Sinister Searches",
+      "subtitle": "Halloween word search edition.",
+      "img": "covers/Sinister Searches_Word Search.jpg",
+      "href": "https://www.amazon.de/dp/B0FQNR8LC1",
+      "category": "Word Search",
+      "author": "Andrea Kramer",
+      "featured": true,
+      "platform": "Amazon"
+    }
+  ]
+  </script>
+
+  <!-- JS Logik -->
+  <script>
+    const byId = (id) => document.getElementById(id);
+    const grid = byId('storeGrid');
+    const statusEl = byId('status');
+    const y = byId('y'); y.textContent = new Date().getFullYear();
+
+    const params = new URLSearchParams(location.search);
+    let DATA_SRC = params.get('data') || 'inline';
+
+    const state = { items: [], view: [], cats: [] };
+
+    async function loadStore(src = DATA_SRC){
+      grid.innerHTML = '<div style="padding:1rem; text-align:center; color:#d4d4d4">Loading products…</div>';
+      statusEl.textContent = '';
+      try{
+        let items = [];
+        if(src === 'inline'){
+          const inlineEl = document.getElementById('storeData');
+          items = JSON.parse(inlineEl.textContent.trim());
+        } else {
+          const res = await fetch(src, { cache: 'no-store' });
+          if(!res.ok) throw new Error('HTTP '+res.status);
+          items = await res.json();
+        }
+
+        if(!Array.isArray(items)) throw new Error('JSON muss ein Array sein');
+
+        items.forEach((it, idx) => {
+          it._ord = idx; // Original-Index aus JSON merken
+          it.title = it.title || 'Unbenanntes Produkt';
+          it.subtitle = it.subtitle || '';
+          it.img = it.img || 'covers/placeholder.jpg';
+          it.href = it.href || '#';
+          it.category = it.category || '';
+          it.author = it.author || '';
+          it.platform = it.platform || '';
+          it.featured = Boolean(it.featured);
+        });
+
+        state.items = items;
+        state.cats = [...new Set(items.map(i => i.category).filter(Boolean))].sort();
+        buildCategoryOptions(state.cats);
+        applyFilters();
+        const badge = document.getElementById('sourceBadge');
+        if (badge) badge.textContent = (src === 'inline') ? '⚡ Data source: Inline' : `📂 Datenquelle: ${src}`;
+      }catch(err){
+        grid.innerHTML = '';
+        const hint = location.protocol === 'file:' ? '<br><small>Tipp: Nutze ?data=inline, um die Inline-Daten zu verwenden.</small>' : '';
+        statusEl.innerHTML = `<span style="color:#f3c77a">Fehler beim Laden (${src}).</span>${hint}`;
+        console.error(err);
+      }
+    }
+
+    function buildCategoryOptions(cats){
+      const sel = byId('cat');
+      const current = sel.value;
+      sel.innerHTML = '<option value=""></option>' + cats.map(c => `<option>${escapeHtml(c)}</option>`).join('');
+      sel.firstElementChild.textContent = 'All';
+      if(cats.includes(current)) sel.value = current; else sel.value = '';
+    }
+
+    function escapeHtml(s){
+      return String(s).replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;','\'':'&#39;'}[m]));
+    }
+
+    function card(item){
+      const chips = [];
+      if(item.category) chips.push(`<span class="chip">${escapeHtml(item.category)}</span>`);
+      if(item.author) chips.push(`<span class="chip">${escapeHtml(item.author)}</span>`);
+
+      return `
+        <a class="card" role="listitem" href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(item.title)} open">
+          <img class="thumb" loading="lazy" src="${item.img}" alt="${escapeHtml(item.title)} – Cover" />
+          <div class="body">
+            <div class="title">${escapeHtml(item.title)}</div>
+            ${item.subtitle ? `<div class="subtitle">${escapeHtml(item.subtitle)}</div>` : ''}
+            <div class="meta">
+              ${chips.join('')}
+              ${item.badge ? `<span class="badge">${escapeHtml(item.badge)}</span>` : ''}
+              ${item.platform ? `<span class="chip">${escapeHtml(item.platform)}</span>` : ''}
+            </div>
+          </div>
+        </a>`;
+    }
+
+    function applyFilters(){
+      const q = byId('q').value.trim().toLowerCase();
+      const cat = byId('cat').value;
+      const plat = byId('plat').value;
+      const onlyFeat = byId('feat').checked;
+
+      let list = state.items.slice();
+
+      if(onlyFeat) list = list.filter(x => x.featured);
+      if(cat) list = list.filter(x => (x.category||'') === cat);
+      if(plat) list = list.filter(x => (x.platform||'') === plat);
+      if(q){
+        list = list.filter(x => [x.title,x.subtitle,x.author,x.category].some(v => (v||'').toLowerCase().includes(q)));
+      }
+
+      // Featured zuerst, dann JSON-Reihenfolge
+      list.sort((a,b) =>
+        (Number(b.featured) - Number(a.featured)) ||
+        (a._ord - b._ord)
+      );
+
+      state.view = list;
+      render();
+    }
+
+function render(){
+  if(!state.view.length){
+    grid.innerHTML = `<div style="padding:1rem; text-align:center; color:#d4d4d4">No products found.</div>`;
+    statusEl.textContent = '';
+    return;
+  }
+  grid.innerHTML = state.view.map(card).join('');
+  statusEl.textContent = `${state.view.length} of ${state.items.length} product${state.items.length===1?'':'s'} displayed`;
+}
+
+    ['q','cat','plat','feat'].forEach(id => byId(id).addEventListener('input', applyFilters));
+
+    loadStore();
+  </script>
 </body>
 </html>
-
-
-
-

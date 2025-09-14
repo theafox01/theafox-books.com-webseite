@@ -1,0 +1,34 @@
+[
+  {
+    "title": "The Stoic’s Notebook",
+    "subtitle": "Daily reflections for clarity and calm.",
+    "img": "covers/stoics-notebook.jpg",
+    "href": "https://www.amazon.de/dp/ASIN1",
+    "category": "Reflections",
+    "author": "Andrea",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wickedly Wordy",
+    "subtitle": "Halloween word search fun.",
+    "img": "covers/word-search-halloween.jpg",
+    "href": "https://www.amazon.de/dp/ASIN2",
+    "category": "Word Search",
+    "author": "Andrea",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Supermarket E-List (PDF)",
+    "subtitle": "Print-ready checklist for clean shopping.",
+    "img": "covers/e-list.jpg",
+    "href": "https://payhip.com/b/xxxx",
+    "category": "Guides",
+    "author": "Andrea & Paul",
+    "featured": false,
+    "platform": "Payhip",
+    "badge": "Digital Download"
+  }
+]
+
