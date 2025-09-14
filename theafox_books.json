@@ -38,8 +38,29 @@
       "author": "Andrea Kramer",
       "featured": true,
       "platform": "Amazon"
+    },
+    {
+      "title": "Witchcraft Words",
+      "subtitle": "Halloween Themed Word Search Puzzles",
+      "img": "covers/Witchcraft Words.jpg",
+      "href": "https://www.amazon.de/dp/B0FQNW9VTF",
+      "category": "Word Search",
+      "author": "Andrea Kramer",
+      "featured": true,
+      "platform": "Amazon"
+    },
+        {
+      "title": "Digital Detox Vol.11",
+      "subtitle": "495 Adorable Chihuahua Words",
+      "img": "covers/Digital Detox Vol.11.jpg",
+      "href": "https://www.amazon.de/dp/B0F9RWS3LL",
+      "category": "Word Search",
+      "author": "Andrea Kramer",
+      "featured": true,
+      "platform": "Amazon"
     }
   ]
+
 
 
 
