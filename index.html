@@ -144,8 +144,8 @@
         state.cats = [...new Set(items.map(i => i.category).filter(Boolean))].sort();
         buildCategoryOptions(state.cats);
         applyFilters();
-        const badge = document.getElementById('sourceBadge');
-        if (badge) badge.textContent = (src === 'inline') ? '⚡ Data source: Inline' : `📂 Datenquelle: ${src}`;
+        //const badge = document.getElementById('sourceBadge');
+        //if (badge) badge.textContent = (src === 'inline') ? '⚡ Data source: Inline' : `📂 Datenquelle: ${src}`;
       }catch(err){
         grid.innerHTML = '';
         const hint = location.protocol === 'file:' ? '<br><small>Tipp: Nutze ?data=inline, um die Inline-Daten zu verwenden.</small>' : '';
@@ -227,4 +227,5 @@ function render(){
   </script>
 </body>
 </html>
+
 
