@@ -1,15 +1,5 @@
 [
   {
-    "title": "The Stoic’s Notebook",
-    "subtitle": "Daily reflections for clarity and calm.",
-    "img": "covers/stoics-notebook.jpg",
-    "href": "https://www.amazon.de/dp/B0FDB85T29",
-    "category": "Philosophy",
-    "author": "Paul Kramer",
-    "featured": true,
-    "platform": "Amazon"
-  },
-  {
     "title": "Hustensaft",
     "subtitle": "Wohltuender Sirup bei Hustenreiz",
     "img": "covers/hustensaft.jpg",
@@ -366,6 +356,16 @@
     "href": "https://www.amazon.de/dp/B0FQPH2BWF",
     "category": "Word Search",
     "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+    {
+    "title": "The Stoic’s Notebook",
+    "subtitle": "Daily reflections for clarity and calm.",
+    "img": "covers/stoics-notebook.jpg",
+    "href": "https://www.amazon.de/dp/B0FDB85T29",
+    "category": "Philosophy",
+    "author": "Paul Kramer",
     "featured": true,
     "platform": "Amazon"
   },
@@ -1500,6 +1500,7 @@
     "platform": "Amazon"
   }
 ]
+
 
 
 
