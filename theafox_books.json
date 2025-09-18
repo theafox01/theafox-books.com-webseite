@@ -390,16 +390,6 @@
     "platform": "Amazon"
   },
   {
-    "title": "Cemetary Sky",
-    "subtitle": "50+ Halloween Themed Word Search Puzzles",
-    "img": "covers/B0FQ5C5HRS.jpg",
-    "href": "https://www.amazon.de/dp/B0FQ5C5HRS",
-    "category": "Word Search",
-    "author": "Andrea Kramer",
-    "featured": true,
-    "platform": "Amazon"
-  },
-  {
     "title": "The Whale",
     "subtitle": "50+ whale themed word search puzzles",
     "img": "covers/B0FQ3NWLNQ.jpg",
@@ -1510,4 +1500,5 @@
     "platform": "Amazon"
   }
 ]
+
 
