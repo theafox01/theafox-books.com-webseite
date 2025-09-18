@@ -26,7 +26,7 @@
     "href": "https://payhip.com/b/5hAvC",
     "category": "Health",
     "author": "A&P Kramer",
-    "featured": true,
+    "featured": false,
     "platform": "Payhip"
   },
   {
@@ -1510,3 +1510,4 @@
     "platform": "Amazon"
   }
 ]
+
