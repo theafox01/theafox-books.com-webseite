@@ -1,75 +1,1512 @@
-  [
-
+[
   {
-      "title": "Kid friendly Halloween word search fun",
-      "subtitle": "55 Kid friendly Halloween word search puzzles",
-      "img": "covers/Kid friendly Halloween_Word Search.jpg",
-      "href": "https://www.amazon.de/dp/B0FPQCJ2LF",
-      "category": "Word Search",
-      "author": "Andrea Kramer",
-      "featured": true,
-      "platform": "Amazon"
-    },
-    {
-      "title": "Wickedly Wordy",
-      "subtitle": "Halloween word search fun.",
-      "img": "covers/Witch Halloween_Word Search.jpg",
-      "href": "https://www.amazon.de/dp/B0FQNR8LC1",
-      "category": "Word Search",
-      "author": "Andrea Kramer",
-      "featured": true,
-      "platform": "Amazon"
-    },
-    {
-      "title": "Sinister Searches",
-      "subtitle": "Halloween word search edition.",
-      "img": "covers/Sinister Searches_Word Search.jpg",
-      "href": "https://www.amazon.de/dp/B0FPQ9PW2V",
-      "category": "Word Search",
-      "author": "Andrea Kramer",
-      "featured": true,
-      "platform": "Amazon"
-    },
-    {
-      "title": "Witchcraft Words",
-      "subtitle": "Halloween Themed Word Search Puzzles",
-      "img": "covers/Witchcraft Words.jpg",
-      "href": "https://www.amazon.de/dp/B0FQNW9VTF",
-      "category": "Word Search",
-      "author": "Andrea Kramer",
-      "featured": true,
-      "platform": "Amazon"
-    },
-        {
-      "title": "Digital Detox Vol.11",
-      "subtitle": "495 Adorable Chihuahua Words",
-      "img": "covers/Digital Detox Vol.11.jpg",
-      "href": "https://www.amazon.de/dp/B0F9RWS3LL",
-      "category": "Word Search",
-      "author": "Andrea Kramer",
-      "featured": true,
-      "platform": "Amazon"
-    },
-        {
-      "title": "The Stoic’s Notebook",
-      "subtitle": "Daily reflections for clarity and calm.",
-      "img": "covers/stoics-notebook.jpg",
-      "href": "https://www.amazon.de/dp/B0FDB85T29",
-      "category": "Philosophy",
-      "author": "Paul Kramer",
-      "featured": true,
-      "platform": "Amazon"
-    }
-  
-  
-  ]
-
-
-
-
-
-
-
-
-
-
+    "title": "The Stoic’s Notebook",
+    "subtitle": "Daily reflections for clarity and calm.",
+    "img": "covers/stoics-notebook.jpg",
+    "href": "https://www.amazon.de/dp/B0FDB85T29",
+    "category": "Philosophy",
+    "author": "Paul Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Hustensaft",
+    "subtitle": "Wohltuender Sirup bei Hustenreiz",
+    "img": "covers/hustensaft.jpg",
+    "href": "https://payhip.com/b/DQAlt",
+    "category": "Health",
+    "author": "A&P Kramer",
+    "featured": false,
+    "platform": "Payhip"
+  },
+  {
+    "title": "Gefährliche E-Nummern",
+    "subtitle": "Gefährliche Zusatzstoffe im Überblick",
+    "img": "covers/e-liste.jpg",
+    "href": "https://payhip.com/b/5hAvC",
+    "category": "Health",
+    "author": "A&P Kramer",
+    "featured": true,
+    "platform": "Payhip"
+  },
+  {
+    "title": "Beneath the Waves ",
+    "subtitle": "The Octopus Word Search Puzzle Book",
+    "img": "covers/B0FDW1993S.jpg",
+    "href": "https://www.amazon.de/dp/B0FDW1993S",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Kack-Wörter Rätselbuch",
+    "subtitle": "Wortsuchrätselbuch rund um die braune Materie",
+    "img": "covers/B0F92T5B23.jpg",
+    "href": "https://www.amazon.de/dp/B0F92T5B23",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Runi and the Light Inside (Runi the Rootling)",
+    "subtitle": "",
+    "img": "covers/B0FGDH1FYH.jpg",
+    "href": "https://www.amazon.de/dp/B0FGDH1FYH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cocktail Word Search Puzzles:",
+    "subtitle": "Cocktail Word Search Puzzles ",
+    "img": "covers/B0F61WN4WW.jpg",
+    "href": "https://www.amazon.de/dp/B0F61WN4WW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Singing River (Runi the Rootling)",
+    "subtitle": "",
+    "img": "covers/B0FD9S9D39.jpg",
+    "href": "https://www.amazon.de/dp/B0FD9S9D39",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cluck & Search A Chicken Word Puzzle Book",
+    "subtitle": "55 Egg-citing Word Search Puzzles ",
+    "img": "covers/B0FDVHL8JS.jpg",
+    "href": "https://www.amazon.de/dp/B0FDVHL8JS",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Clever as a Fox Word Puzzles for the Wild at Heart",
+    "subtitle": "Fun, Brainy Puzzles for Fox Fans",
+    "img": "covers/B0FDQ7RYLM.jpg",
+    "href": "https://www.amazon.de/dp/B0FDQ7RYLM",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Spanish Word Search Puzzles",
+    "subtitle": "Ready to turn your free time into something smart, relaxing, and productive? ",
+    "img": "covers/B0FDKQNQWB.jpg",
+    "href": "https://www.amazon.de/dp/B0FDKQNQWB",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Eis wortsuchrätsel",
+    "subtitle": "Alles rund um Eis und Eissorten ",
+    "img": "covers/B0F6JY8Q38.jpg",
+    "href": "https://www.amazon.de/dp/B0F6JY8Q38",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Hallo von Planet zu Planet",
+    "subtitle": "Ein herzerwärmendes Science-Fiction-Abenteuer ",
+    "img": "covers/B0F87PTH98.jpg",
+    "href": "https://www.amazon.de/dp/B0F87PTH98",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Fruit Friends in the Wild",
+    "subtitle": "Discover who loves fruit in the wild! ",
+    "img": "covers/B0FD6W5V2P.jpg",
+    "href": "https://www.amazon.de/dp/B0FD6W5V2P",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Roots of the Redwood",
+    "subtitle": "A heart-rooted story",
+    "img": "covers/B0FC5YLVM9.jpg",
+    "href": "https://www.amazon.de/dp/B0FC5YLVM9",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Bibel Wortsuchrätseln",
+    "subtitle": "55 Wortsuchrätseln rund um die Bibel ",
+    "img": "covers/B0F8947TRC.jpg",
+    "href": "https://www.amazon.de/dp/B0F8947TRC",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Yorkshire Terrier Word Search Puzzle Book",
+    "subtitle": "50+ Fun & Furry Puzzles ",
+    "img": "covers/B0F9PLWF4V.jpg",
+    "href": "https://www.amazon.de/dp/B0F9PLWF4V",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Sketchbook Touch of Gold",
+    "subtitle": "100 Pages to Sketch or be Creative on. ",
+    "img": "covers/B0FBWH8K3P.jpg",
+    "href": "https://www.amazon.de/dp/B0FBWH8K3P",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.11",
+    "subtitle": "495 Adorable Chihuahua Words",
+    "img": "covers/B0F9RWS3LL.jpg",
+    "href": "https://www.amazon.de/dp/B0F9RWS3LL",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Bad Words 55 Word Search Puzzles",
+    "subtitle": "Unleash Your Inner Filthy Mouth",
+    "img": "covers/B0F8V4HFGG.jpg",
+    "href": "https://www.amazon.de/dp/B0F8V4HFGG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Ink",
+    "subtitle": "A Puzzle Journey Through Tattoo Culture",
+    "img": "covers/B0F9KNXHWH.jpg",
+    "href": "https://www.amazon.de/dp/B0F9KNXHWH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Paranormal wortsuchrätsel",
+    "subtitle": "Das ultimative Wortsuchrätsel-Buch für Fans des Paranormalen ",
+    "img": "covers/B0F6JYYJQM.jpg",
+    "href": "https://www.amazon.de/dp/B0F6JYYJQM",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wordsuchrätsel Herzchakra - Liebe",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein Urvertrauen zu stärken",
+    "img": "covers/B0F82ZDRS7.jpg",
+    "href": "https://www.amazon.de/dp/B0F82ZDRS7",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Hello from Planet to Planet",
+    "subtitle": "",
+    "img": "covers/B0F6L8FPTD.jpg",
+    "href": "https://www.amazon.de/dp/B0F6L8FPTD",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Align",
+    "subtitle": "Spiritual Quotes and Reflections for Inner Balance",
+    "img": "covers/B0F9F3WY58.jpg",
+    "href": "https://www.amazon.de/dp/B0F9F3WY58",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "PROJECT BLUEBOOK Word Search Puzzles for true BELIEVERS",
+    "subtitle": "Word Search Puzzles for true BELIEVERS ",
+    "img": "covers/B0F6C7X4DK.jpg",
+    "href": "https://www.amazon.de/dp/B0F6C7X4DK",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Human Hand Adventure Book",
+    "subtitle": "70+ pages of puzzles, facts and more!",
+    "img": "covers/B0F7J37SMH.jpg",
+    "href": "https://www.amazon.de/dp/B0F7J37SMH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wortsuchrätsel Wurzelchakra Urvertrauen",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein Urvertrauen zu stärken",
+    "img": "covers/B0F7X7LFVH.jpg",
+    "href": "https://www.amazon.de/dp/B0F7X7LFVH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Math Garden",
+    "subtitle": "A Fun Workbook for First-Year Math Learners ",
+    "img": "covers/B0F92DGFQR.jpg",
+    "href": "https://www.amazon.de/dp/B0F92DGFQR",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.3",
+    "subtitle": "55 Large Print Word Search Puzzles about Ice-Cream",
+    "img": "covers/B0F7DZ1X1V.jpg",
+    "href": "https://www.amazon.de/dp/B0F7DZ1X1V",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.9",
+    "subtitle": "55 Large Print Puzzles to Inspire, Comfort & Uplift",
+    "img": "covers/B0F7H7ZS39.jpg",
+    "href": "https://www.amazon.de/dp/B0F7H7ZS39",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cannabis Word Search Puzzles",
+    "subtitle": "Word Search Puzzles about Cannabis ",
+    "img": "covers/B0F6CNX13C.jpg",
+    "href": "https://www.amazon.de/dp/B0F6CNX13C",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Unplugged Sudoku and Mazes for a Digital Detox Vol.1",
+    "subtitle": "",
+    "img": "covers/B0F7QR8PGV.jpg",
+    "href": "https://www.amazon.de/dp/B0F7QR8PGV",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Zombie Word Search",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FR3BVD75.jpg",
+    "href": "https://www.amazon.de/dp/B0FR3BVD75",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Spider Word Search",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FR38LDMG.jpg",
+    "href": "https://www.amazon.de/dp/B0FR38LDMG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Vampire Word Search",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FR37W2GL.jpg",
+    "href": "https://www.amazon.de/dp/B0FR37W2GL",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cemetery A Halloween Word Search",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FQPH2BWF.jpg",
+    "href": "https://www.amazon.de/dp/B0FQPH2BWF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Witchcraft Words",
+    "subtitle": "50+ Halloween Themed Word Search Puzzles ",
+    "img": "covers/B0FQNW9VTF.jpg",
+    "href": "https://www.amazon.de/dp/B0FQNW9VTF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Witch Halloween Word Search",
+    "subtitle": "50+ Halloween Themed Word Search Puzzles",
+    "img": "covers/B0FQNR8LC1.jpg",
+    "href": "https://www.amazon.de/dp/B0FQNR8LC1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cemetary Sky",
+    "subtitle": "50+ Halloween Themed Word Search Puzzles",
+    "img": "covers/B0FQ5C5HRS.jpg",
+    "href": "https://www.amazon.de/dp/B0FQ5C5HRS",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Whale",
+    "subtitle": "50+ whale themed word search puzzles",
+    "img": "covers/B0FQ3NWLNQ.jpg",
+    "href": "https://www.amazon.de/dp/B0FQ3NWLNQ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Under The Sea",
+    "subtitle": "Word Search Puzzles for Kids ",
+    "img": "covers/B0FQ3MKQSY.jpg",
+    "href": "https://www.amazon.de/dp/B0FQ3MKQSY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Legends Of The Sea",
+    "subtitle": "50+ word search puzzles",
+    "img": "covers/B0FQ3MG32N.jpg",
+    "href": "https://www.amazon.de/dp/B0FQ3MG32N",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Kid-Friendly Halloween Word Search Fun",
+    "subtitle": "55 Kid friendly Halloween word search puzzles",
+    "img": "covers/B0FPQCJ2LF.jpg",
+    "href": "https://www.amazon.de/dp/B0FPQCJ2LF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Sinister Searches",
+    "subtitle": "55 Halloween Theamed Puzzles | Not for kids",
+    "img": "covers/B0FPQ9PW2V.jpg",
+    "href": "https://www.amazon.de/dp/B0FPQ9PW2V",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wickedly Wordy",
+    "subtitle": "50+ Word Search Puzzles | Halloween| Not for kids",
+    "img": "covers/B0FPQ9KPMW.jpg",
+    "href": "https://www.amazon.de/dp/B0FPQ9KPMW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": true,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Fortune Finder Word Search",
+    "subtitle": "55 Word Search Puzzles about Gold and Money",
+    "img": "covers/B0FPCKCD9J.jpg",
+    "href": "https://www.amazon.de/dp/B0FPCKCD9J",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Focus On The Positive",
+    "subtitle": "55 Word Search Puzzles",
+    "img": "covers/B0FPCJBW6J.jpg",
+    "href": "https://www.amazon.de/dp/B0FPCJBW6J",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Love True: 55 Word Search Puzzles about love, trust and respect",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FPB39DL5.jpg",
+    "href": "https://www.amazon.de/dp/B0FPB39DL5",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Fresh Aqua Summit",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FPB2B661.jpg",
+    "href": "https://www.amazon.de/dp/B0FPB2B661",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Candy Love",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FPB1QHF3.jpg",
+    "href": "https://www.amazon.de/dp/B0FPB1QHF3",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Needle & Thread",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FP8Y6LV2.jpg",
+    "href": "https://www.amazon.de/dp/B0FP8Y6LV2",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Snake Tamer",
+    "subtitle": " 50+ Word Search Puzzles",
+    "img": "covers/B0FP8XXS4P.jpg",
+    "href": "https://www.amazon.de/dp/B0FP8XXS4P",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cowboy Dreams",
+    "subtitle": "55 Word Search Puzzles",
+    "img": "covers/B0FP1KGZP7.jpg",
+    "href": "https://www.amazon.de/dp/B0FP1KGZP7",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Aone to Alaska and back again",
+    "subtitle": "Explore the Last Frontier in 55 Chilling Word Search Puzzles",
+    "img": "covers/B0FP1DHWTG.jpg",
+    "href": "https://www.amazon.de/dp/B0FP1DHWTG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Summit Seekers",
+    "subtitle": "55 thrilling word search puzzles",
+    "img": "covers/B0FNL31BBN.jpg",
+    "href": "https://www.amazon.de/dp/B0FNL31BBN",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "55 Word Search Puzzles Secret",
+    "subtitle": "Bulldog (Dogs)",
+    "img": "covers/B0FLXFGS8S.jpg",
+    "href": "https://www.amazon.de/dp/B0FLXFGS8S",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "55 Word Search Puzzles Inspiring Tales Of Success Pug Top Dog",
+    "subtitle": "Celebrating the Determined, Loyal & Legendary Pug",
+    "img": "covers/B0FLWK5P7M.jpg",
+    "href": "https://www.amazon.de/dp/B0FLWK5P7M",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Shephard's Watch 55 Word Search Puzzles",
+    "subtitle": "A Word Search Puzzle Adventure (Dogs)",
+    "img": "covers/B0FLWBM23K.jpg",
+    "href": "https://www.amazon.de/dp/B0FLWBM23K",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Shih Tzu Find The Fluff!",
+    "subtitle": "Word Puzzles for Shih Tzu Fans (Dogs)",
+    "img": "covers/B0FLWB8VJQ.jpg",
+    "href": "https://www.amazon.de/dp/B0FLWB8VJQ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Neural Nexus Word Search Puzzles",
+    "subtitle": "55 Mind-Bending Puzzles of Machine Intelligence",
+    "img": "covers/B0FLT62FHY.jpg",
+    "href": "https://www.amazon.de/dp/B0FLT62FHY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Explorer Aliens, UFO's & UAPS",
+    "subtitle": "55 Extraterrestrial Puzzle Missions",
+    "img": "covers/B0FLT3P9KD.jpg",
+    "href": "https://www.amazon.de/dp/B0FLT3P9KD",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Signal Lost Word Search Mysteries of the Skies",
+    "subtitle": " 55 Puzzles of High Strangeness",
+    "img": "covers/B0FLQ2N69C.jpg",
+    "href": "https://www.amazon.de/dp/B0FLQ2N69C",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles Stars",
+    "subtitle": "Shine Bright with 825 Starry Words Across 55 Cosmic Puzzles",
+    "img": "covers/B0FLPLSKFF.jpg",
+    "href": "https://www.amazon.de/dp/B0FLPLSKFF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles AI",
+    "subtitle": "Explore 855 AI-Inspired Words Across 57 Brain-Boosting Puzzles",
+    "img": "covers/B0FLPGMXFG.jpg",
+    "href": "https://www.amazon.de/dp/B0FLPGMXFG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles K-POP 3",
+    "subtitle": "55 Puzzles for the Ultimate K-pop Stan – Test Your Bias Knowledge!",
+    "img": "covers/B0FLJSG7RM.jpg",
+    "href": "https://www.amazon.de/dp/B0FLJSG7RM",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles K-POP 2",
+    "subtitle": "A Fun-Filled Puzzle Book for True Stans of the K-POP Universe!",
+    "img": "covers/B0FKXS6JRW.jpg",
+    "href": "https://www.amazon.de/dp/B0FKXS6JRW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Sagittarius",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FK3BG296.jpg",
+    "href": "https://www.amazon.de/dp/B0FK3BG296",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Virgo",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJL2VLJM.jpg",
+    "href": "https://www.amazon.de/dp/B0FJL2VLJM",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Leo",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJHL58FX.jpg",
+    "href": "https://www.amazon.de/dp/B0FJHL58FX",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Aquarius",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJH8L7H3.jpg",
+    "href": "https://www.amazon.de/dp/B0FJH8L7H3",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Gemini",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJ7YZZK9.jpg",
+    "href": "https://www.amazon.de/dp/B0FJ7YZZK9",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Pisces",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJ7YVX6Y.jpg",
+    "href": "https://www.amazon.de/dp/B0FJ7YVX6Y",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Libra",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJ7X9GM7.jpg",
+    "href": "https://www.amazon.de/dp/B0FJ7X9GM7",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Cancer",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJ2C9ZYJ.jpg",
+    "href": "https://www.amazon.de/dp/B0FJ2C9ZYJ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Capricorn",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJ27NN6C.jpg",
+    "href": "https://www.amazon.de/dp/B0FJ27NN6C",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Aries",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FJ1S15MS.jpg",
+    "href": "https://www.amazon.de/dp/B0FJ1S15MS",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Scorpio",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FHWDWWYH.jpg",
+    "href": "https://www.amazon.de/dp/B0FHWDWWYH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Star Sign Search Taurus",
+    "subtitle": "Word Search Puzzles",
+    "img": "covers/B0FHWDCTVZ.jpg",
+    "href": "https://www.amazon.de/dp/B0FHWDCTVZ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Sorcerer’s Stones Word Search Puzzles",
+    "subtitle": "A Magical Word Collection of Crystals, Gemstones & Sorcery",
+    "img": "covers/B0FH9S1RXT.jpg",
+    "href": "https://www.amazon.de/dp/B0FH9S1RXT",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Shark Word Search",
+    "subtitle": "50+ Fun and Challenging Puzzles ",
+    "img": "covers/B0FH9GVXMS.jpg",
+    "href": "https://www.amazon.de/dp/B0FH9GVXMS",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Whiskers & Words",
+    "subtitle": "Schnauzer Word Search Puzzle Book",
+    "img": "covers/B0FH6CWMBR.jpg",
+    "href": "https://www.amazon.de/dp/B0FH6CWMBR",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Shiba Word Search Book",
+    "subtitle": "The Ultimate Shiba Inu Lover’s Activity Book",
+    "img": "covers/B0FGXRDT92.jpg",
+    "href": "https://www.amazon.de/dp/B0FGXRDT92",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Dachshund Word Search Puzzles",
+    "subtitle": "Fun-Filled Word Hunts ",
+    "img": "covers/B0FDQ5L4F3.jpg",
+    "href": "https://www.amazon.de/dp/B0FDQ5L4F3",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Tasty Dates A Word Search Dining Adventure",
+    "subtitle": "A Delicious Puzzle Book ",
+    "img": "covers/B0FDKHVNST.jpg",
+    "href": "https://www.amazon.de/dp/B0FDKHVNST",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Animal Fun Word Search for Kids",
+    "subtitle": "Explore the Animal Kingdom with 55 Fun Word Puzzles for Curious Kids!",
+    "img": "covers/B0FD9GL8DG.jpg",
+    "href": "https://www.amazon.de/dp/B0FD9GL8DG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Labrador Word Search Puzzles",
+    "subtitle": "55 Brain-Boosting Puzzles with Solutions! (Dogs)",
+    "img": "covers/B0FD8HCL2C.jpg",
+    "href": "https://www.amazon.de/dp/B0FD8HCL2C",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cane Corso Word Search Puzzles",
+    "subtitle": "55 Brain-Boosting Puzzles with Solutions! (Dogs)",
+    "img": "covers/B0FD8FC1W9.jpg",
+    "href": "https://www.amazon.de/dp/B0FD8FC1W9",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "French Bulldog Word Search Puzzles",
+    "subtitle": "55 Puzzles with Solutions! (Dogs)",
+    "img": "covers/B0FD8FB9V1.jpg",
+    "href": "https://www.amazon.de/dp/B0FD8FB9V1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "In Search of Words The Colour Purple",
+    "subtitle": "55 Purple-Inspired Word Puzzles to Soothe and Stimulate",
+    "img": "covers/B0FD2TSXGB.jpg",
+    "href": "https://www.amazon.de/dp/B0FD2TSXGB",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "English Word Search Puzzles",
+    "subtitle": "Fun, Brain-Boosting Puzzles to Relax, Learn, and Stay Sharp",
+    "img": "covers/B0FDWLVMD1.jpg",
+    "href": "https://www.amazon.de/dp/B0FDWLVMD1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Sketchbook Into the Deep Vol.1",
+    "subtitle": "A Creative Sketchbook with Blank Pages and Rounded Borders for Artists of All Ages",
+    "img": "covers/B0FBJWL4PN.jpg",
+    "href": "https://www.amazon.de/dp/B0FBJWL4PN",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "00 Slang word search puzzles",
+    "subtitle": "55 Word Search Puzzles",
+    "img": "covers/B0FB8BLC3Z.jpg",
+    "href": "https://www.amazon.de/dp/B0FB8BLC3Z",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Sex Toys adult word search puzzle fun",
+    "subtitle": "55 Naughty Word Search Puzzles",
+    "img": "covers/B0FB87T5GK.jpg",
+    "href": "https://www.amazon.de/dp/B0FB87T5GK",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "K-Pop Word Search Puzzles",
+    "subtitle": "495 K-Pop Words & Phrases",
+    "img": "covers/B0F9XWM56M.jpg",
+    "href": "https://www.amazon.de/dp/B0F9XWM56M",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "WORTSUCHSPIEL FÜR KLETTERER",
+    "subtitle": "55 Wortsuchrätsel rund ums Klettern, Bouldern & Abenteuer in der Vertikalen",
+    "img": "covers/B0F9VJ5572.jpg",
+    "href": "https://www.amazon.de/dp/B0F9VJ5572",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Trails word search puzzles",
+    "subtitle": "55 Word Search Puzzles for Nature Lovers",
+    "img": "covers/B0F9VGM3S2.jpg",
+    "href": "https://www.amazon.de/dp/B0F9VGM3S2",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Rock Climbing word search puzzles",
+    "subtitle": "55 Thrilling Word Search Puzzles for Rock Climbing Fans",
+    "img": "covers/B0F9VF6MBH.jpg",
+    "href": "https://www.amazon.de/dp/B0F9VF6MBH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.12",
+    "subtitle": "A thoughtful gift for Yorkie fans of all ages",
+    "img": "covers/B0F9SS4S32.jpg",
+    "href": "https://www.amazon.de/dp/B0F9SS4S32",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Tiny Dog, Big Personality A Yorkie Word Search Book",
+    "subtitle": "55 Fun & Furry Puzzles",
+    "img": "covers/B0F9PMCS6S.jpg",
+    "href": "https://www.amazon.de/dp/B0F9PMCS6S",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Bodypainting",
+    "subtitle": "Color your mind with creativity.",
+    "img": "covers/B0F9KV7QG1.jpg",
+    "href": "https://www.amazon.de/dp/B0F9KV7QG1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Freshwater Finds",
+    "subtitle": "A Fish-Themed Word Search Adventure",
+    "img": "covers/B0F9KHYGYQ.jpg",
+    "href": "https://www.amazon.de/dp/B0F9KHYGYQ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Seaside Word search puzzles",
+    "subtitle": "Relax and Unwind with 55 Ocean-Themed Word Search Puzzles",
+    "img": "covers/B0F9XVFM2T.jpg",
+    "href": "https://www.amazon.de/dp/B0F9XVFM2T",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.10",
+    "subtitle": "Digital Detox Vol. 10",
+    "img": "covers/B0F9F34S7V.jpg",
+    "href": "https://www.amazon.de/dp/B0F9F34S7V",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "WW2 Word Search Puzzles",
+    "subtitle": "Large Print Puzzles for History Buffs",
+    "img": "covers/B0F947BSJ1.jpg",
+    "href": "https://www.amazon.de/dp/B0F947BSJ1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Der Mathe-Garden",
+    "subtitle": "Zählen, Rechnen, Malen und Rätseln für Kinder ab 5 Jahren",
+    "img": "covers/B0F9FBZ75H.jpg",
+    "href": "https://www.amazon.de/dp/B0F9FBZ75H",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Romantische Wortsuchrätsel",
+    "subtitle": "Finde die Liebe – Ein Wort für Wort Erlebnis",
+    "img": "covers/B0F92C6SRF.jpg",
+    "href": "https://www.amazon.de/dp/B0F92C6SRF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "DERB&DEFTIG DAS SCHIMPFWÖRTER- WORTRÄTSELBUCH",
+    "subtitle": "495 Schimpfwörter, 55 Rätsel, 100 % Spaß – Nicht jugendfrei!",
+    "img": "covers/B0F92BHZK1.jpg",
+    "href": "https://www.amazon.de/dp/B0F92BHZK1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Poop Word Search Puzzle Book",
+    "subtitle": "A Hilarious Brain Dump of Fun Words",
+    "img": "covers/B0F8VF1K5V.jpg",
+    "href": "https://www.amazon.de/dp/B0F8VF1K5V",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Adult Word Search",
+    "subtitle": "Explore the Language of Love, Connection, and Intimacy",
+    "img": "covers/B0F8VDJ5QW.jpg",
+    "href": "https://www.amazon.de/dp/B0F8VDJ5QW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Adventure Word Search Puzzles",
+    "subtitle": "55 Puzzles to Challenge Every Explorer’s Mind",
+    "img": "covers/B0F8QHCXCK.jpg",
+    "href": "https://www.amazon.de/dp/B0F8QHCXCK",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles Adventure",
+    "subtitle": "Thrilling Word Hunts for Brave Puzzle Seekers",
+    "img": "covers/B0F8QF23GN.jpg",
+    "href": "https://www.amazon.de/dp/B0F8QF23GN",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles Word War II",
+    "subtitle": "World War II in Words – Can You Find Them All?",
+    "img": "covers/B0F8Q8VXNY.jpg",
+    "href": "https://www.amazon.de/dp/B0F8Q8VXNY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles Breathe",
+    "subtitle": "Relaxing Word Search Puzzles to Soothe Your Mind and Lift Your Mood",
+    "img": "covers/B0F8MT2938.jpg",
+    "href": "https://www.amazon.de/dp/B0F8MT2938",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles Angels",
+    "subtitle": "Inspiring Word Search Puzzles ",
+    "img": "covers/B0F8MRM7W7.jpg",
+    "href": "https://www.amazon.de/dp/B0F8MRM7W7",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Word Search Puzzles 1980's",
+    "subtitle": "Totally Rad Word Games",
+    "img": "covers/B0F8ML765T.jpg",
+    "href": "https://www.amazon.de/dp/B0F8ML765T",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Karma, Chakra & Meditation Word Search 55 Puzzles for Inner Peace",
+    "subtitle": "55 calming puzzles to engage your spirit and focus your mind.",
+    "img": "covers/B0F8BCK1HC.jpg",
+    "href": "https://www.amazon.de/dp/B0F8BCK1HC",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wordsuchrätsel Kronenschakra - Höheres Selbst",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein Bewusstein zu stärken",
+    "img": "covers/B0F88ZYNWD.jpg",
+    "href": "https://www.amazon.de/dp/B0F88ZYNWD",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wordsuchrätsel Stirnchakra - Intuition",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein 3. Augen zu stärken",
+    "img": "covers/B0F83QLBCH.jpg",
+    "href": "https://www.amazon.de/dp/B0F83QLBCH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wordsuchrätsel Halschakra - Kommunikation",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein Halschakra zu stärken",
+    "img": "covers/B0F83L1FRG.jpg",
+    "href": "https://www.amazon.de/dp/B0F83L1FRG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wordsuchrätsel Sakralchakra - Kreativität",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein Sakralchakra zu stärken",
+    "img": "covers/B0F7X8FDS2.jpg",
+    "href": "https://www.amazon.de/dp/B0F7X8FDS2",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra Wordsuchrätsel Solarplexus-Chakra - Kraft",
+    "subtitle": "55 Wortsuchrätsel, um zu meditieren und dein solarplexus zu stärken",
+    "img": "covers/B0F7X6JHMN.jpg",
+    "href": "https://www.amazon.de/dp/B0F7X6JHMN",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Unplugged Sudoku and Mazes for a Digital Detox Vol.3",
+    "subtitle": "",
+    "img": "covers/B0F7R2X377.jpg",
+    "href": "https://www.amazon.de/dp/B0F7R2X377",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Unplugged Sudoku and Mazes for a Digital Detox Vol.2",
+    "subtitle": "",
+    "img": "covers/B0F7QJRH4D.jpg",
+    "href": "https://www.amazon.de/dp/B0F7QJRH4D",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.8",
+    "subtitle": "",
+    "img": "covers/B0F7H3Y88T.jpg",
+    "href": "https://www.amazon.de/dp/B0F7H3Y88T",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.7",
+    "subtitle": "55 Large Print Word Search Puzzles about Easter",
+    "img": "covers/B0F7H3B785.jpg",
+    "href": "https://www.amazon.de/dp/B0F7H3B785",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.6",
+    "subtitle": "55 Large Print Word Search Puzzles about Roosters",
+    "img": "covers/B0F7G85YDD.jpg",
+    "href": "https://www.amazon.de/dp/B0F7G85YDD",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.5",
+    "subtitle": "Large Print Botanic Word Search Puzzle Book",
+    "img": "covers/B0F7G7YD74.jpg",
+    "href": "https://www.amazon.de/dp/B0F7G7YD74",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.4",
+    "subtitle": "Large Print Word Search Puzzle Book about Bones",
+    "img": "covers/B0F7G7RFNH.jpg",
+    "href": "https://www.amazon.de/dp/B0F7G7RFNH",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.2",
+    "subtitle": "55 Large Print Word Search Puzzles about Cats",
+    "img": "covers/B0F7F7VMRR.jpg",
+    "href": "https://www.amazon.de/dp/B0F7F7VMRR",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Digital Detox Vol.1",
+    "subtitle": "Large Print Format word search puzzles about Bowling",
+    "img": "covers/B0F7F5KSLK.jpg",
+    "href": "https://www.amazon.de/dp/B0F7F5KSLK",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Pink Cats word search puzzles Vol. 1",
+    "subtitle": "Purr-fect Word Search Fun for Cat Lovers!",
+    "img": "covers/B0F6YT9LPP.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YT9LPP",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search - Crown Chakra Spirit",
+    "subtitle": "A Relaxing Word Search Journey for Body, Mind, and Spirit",
+    "img": "covers/B0F6YSK3HR.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YSK3HR",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search - Third Eye Intuition",
+    "subtitle": "Mindful Puzzle Fun for Body, Mind, and Spirit",
+    "img": "covers/B0F6YR92QW.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YR92QW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search puzzles",
+    "subtitle": "Mindful Puzzle Fun for Body, Mind, and Spirit",
+    "img": "covers/B0F6YM3GXG.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YM3GXG",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search puzzles",
+    "subtitle": "Mindful Puzzle Fun for Body, Mind, and Spirit",
+    "img": "covers/B0F6V8PZZ6.jpg",
+    "href": "https://www.amazon.de/dp/B0F6V8PZZ6",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search puzzles",
+    "subtitle": "Mindful Puzzle Fun for Body, Mind, and Spirit",
+    "img": "covers/B0F6V72PHF.jpg",
+    "href": "https://www.amazon.de/dp/B0F6V72PHF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search - Root Chakra Red Energy",
+    "subtitle": "Word Search Puzzle Book About The First Chakra",
+    "img": "covers/B0F6YMSTCW.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YMSTCW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chakra word search puzzles",
+    "subtitle": "Word Search Puzzle Book About Chakras",
+    "img": "covers/B0F6YLDJ7P.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YLDJ7P",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Airplane word search puzzles Vol.3",
+    "subtitle": "",
+    "img": "covers/B0F6YQ8MB2.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YQ8MB2",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Paranormal Mystery word search puzzles",
+    "subtitle": "",
+    "img": "covers/B0F6YPQQ39.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YPQQ39",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Airplane word search puzzles",
+    "subtitle": "Word Search Puzzles about Airplanes",
+    "img": "covers/B0F6YMPMF8.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YMPMF8",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "MaryJane's World ",
+    "subtitle": "Word Search Puzzles about Cannabis",
+    "img": "covers/B0F6YPQ2D9.jpg",
+    "href": "https://www.amazon.de/dp/B0F6YPQ2D9",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Airplaine word search puzzles",
+    "subtitle": "Word Search Puzzles about Airplanes",
+    "img": "covers/B0F6LBVV1L.jpg",
+    "href": "https://www.amazon.de/dp/B0F6LBVV1L",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Bible word search puzzles",
+    "subtitle": "Word Search Puzzles about the Bible ",
+    "img": "covers/B0F6LB6KYF.jpg",
+    "href": "https://www.amazon.de/dp/B0F6LB6KYF",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Ice-cream word search puzzles",
+    "subtitle": "Word Search Puzzles about Ice-cream ",
+    "img": "covers/B0F6JR3GKJ.jpg",
+    "href": "https://www.amazon.de/dp/B0F6JR3GKJ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Rooster word search puzzles",
+    "subtitle": "Word search puzzles about Roosters",
+    "img": "covers/B0F6CKMDJY.jpg",
+    "href": "https://www.amazon.de/dp/B0F6CKMDJY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cats Word Search Puzzles",
+    "subtitle": "Word search puzzles about Cats ",
+    "img": "covers/B0F6CJYH6Z.jpg",
+    "href": "https://www.amazon.de/dp/B0F6CJYH6Z",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Cocktail Wortsuchrätsel",
+    "subtitle": "55 Cocktail Wortsuchrätsels ",
+    "img": "covers/B0F62QWMZS.jpg",
+    "href": "https://www.amazon.de/dp/B0F62QWMZS",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Movie & Film Word Search Puzzles",
+    "subtitle": "Word Searches about Movies and Film ",
+    "img": "covers/B0F6CG7DCJ.jpg",
+    "href": "https://www.amazon.de/dp/B0F6CG7DCJ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "German Word Search Puzzles",
+    "subtitle": "Word searches containting only German words.",
+    "img": "covers/B0F6CD6BNC.jpg",
+    "href": "https://www.amazon.de/dp/B0F6CD6BNC",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  }
+]
