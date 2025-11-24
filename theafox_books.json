@@ -446,7 +446,7 @@
     "href": "https://www.amazon.de/dp/B0FPQ9KPMW",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": False,
+    "featured": false,
     "platform": "Amazon"
   },
   {
@@ -1500,6 +1500,7 @@
     "platform": "Amazon"
   }
 ]
+
 
 
 
