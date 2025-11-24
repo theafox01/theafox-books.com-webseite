@@ -356,7 +356,7 @@
     "href": "https://www.amazon.de/dp/B0FQPH2BWF",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": true,
+    "featured": false,
     "platform": "Amazon"
   },
     {
@@ -376,7 +376,7 @@
     "href": "https://www.amazon.de/dp/B0FQNW9VTF",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": true,
+    "featured": false,
     "platform": "Amazon"
   },
   {
@@ -386,7 +386,7 @@
     "href": "https://www.amazon.de/dp/B0FQNR8LC1",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": true,
+    "featured": false,
     "platform": "Amazon"
   },
   {
@@ -406,7 +406,7 @@
     "href": "https://www.amazon.de/dp/B0FQ3MKQSY",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": false,
+    "featured": true,
     "platform": "Amazon"
   },
   {
@@ -426,7 +426,7 @@
     "href": "https://www.amazon.de/dp/B0FPQCJ2LF",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": true,
+    "featured": false,
     "platform": "Amazon"
   },
   {
@@ -436,7 +436,7 @@
     "href": "https://www.amazon.de/dp/B0FPQ9PW2V",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": true,
+    "featured": false,
     "platform": "Amazon"
   },
   {
@@ -446,7 +446,7 @@
     "href": "https://www.amazon.de/dp/B0FPQ9KPMW",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": true,
+    "featured": False,
     "platform": "Amazon"
   },
   {
@@ -966,7 +966,7 @@
     "href": "https://www.amazon.de/dp/B0F9VF6MBH",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": false,
+    "featured": true,
     "platform": "Amazon"
   },
   {
@@ -1016,7 +1016,7 @@
     "href": "https://www.amazon.de/dp/B0F9XVFM2T",
     "category": "Word Search",
     "author": "Andrea Kramer",
-    "featured": false,
+    "featured": true,
     "platform": "Amazon"
   },
   {
@@ -1500,6 +1500,7 @@
     "platform": "Amazon"
   }
 ]
+
 
 
 
