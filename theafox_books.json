@@ -369,7 +369,7 @@
     "featured": false,
     "platform": "Amazon"
   },
-    {
+  {
     "title": "The Stoic’s Notebook",
     "subtitle": "Daily reflections for clarity and calm.",
     "img": "covers/stoics-notebook.jpg",
@@ -1508,14 +1508,635 @@
     "author": "Andrea Kramer",
     "featured": false,
     "platform": "Amazon"
+  },
+  {
+    "title": "Your Color: Discover the Meaning Behind the Shades You Love (English Edition)",
+    "subtitle": "",
+    "img": "covers/B0FY3JYYDB.jpg",
+    "href": "https://www.amazon.de/dp/B0FY3JYYDB",
+    "category": "Mindfulness",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Pomeranian Word Search: 50+ Word Search Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GVXNM5X5.jpg",
+    "href": "https://www.amazon.de/dp/B0GVXNM5X5",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Beagle Word Search: 50+ Word Search Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GVXGBS1K.jpg",
+    "href": "https://www.amazon.de/dp/B0GVXGBS1K",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Rottweiler Word Search: 50+ Word Search Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GVQLJLWK.jpg",
+    "href": "https://www.amazon.de/dp/B0GVQLJLWK",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Border Collie Word Search: 50+ Word Search Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GVQ1LCWT.jpg",
+    "href": "https://www.amazon.de/dp/B0GVQ1LCWT",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Golden Retriever Word Search",
+    "subtitle": "",
+    "img": "covers/B0GVPFYMP2.jpg",
+    "href": "https://www.amazon.de/dp/B0GVPFYMP2",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Jams & Jellies Word Search: 50+ Word Search Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GTMGZHN8.jpg",
+    "href": "https://www.amazon.de/dp/B0GTMGZHN8",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Quest: 50+ Word Search Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GTMBK46B.jpg",
+    "href": "https://www.amazon.de/dp/B0GTMBK46B",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Puzzle Express Vol.2: Word Search | 50+ Puzzles, Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GT9Z5FGY.jpg",
+    "href": "https://www.amazon.de/dp/B0GT9Z5FGY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Puzzle Express Vol.1: Word Search | 50+ Puzzles, Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GT9M8M8W.jpg",
+    "href": "https://www.amazon.de/dp/B0GT9M8M8W",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Free Mind Vol.6: 50 Sudoku Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GSK274RB.jpg",
+    "href": "https://www.amazon.de/dp/B0GSK274RB",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Free Mind Vol.4: 50 Sudoku Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GSK18QK6.jpg",
+    "href": "https://www.amazon.de/dp/B0GSK18QK6",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Free Mind Vol.5: 50 Sudoku Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GSJZP1Q4.jpg",
+    "href": "https://www.amazon.de/dp/B0GSJZP1Q4",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Free Mind Vol.3: 50 Sudoku Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GSGQQ2PM.jpg",
+    "href": "https://www.amazon.de/dp/B0GSGQQ2PM",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Free Mind Vol.2: 50 Sudoku Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GSGKSXF1.jpg",
+    "href": "https://www.amazon.de/dp/B0GSGKSXF1",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Free Mind Vol.1: 50 Sudoku Puzzles | Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GSGFLHY1.jpg",
+    "href": "https://www.amazon.de/dp/B0GSGFLHY1",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Sudoku Schlaufuchs Vol.18: 50+ Puzzles - Solutions Included",
+    "subtitle": "",
+    "img": "covers/B0GRNF25VN.jpg",
+    "href": "https://www.amazon.de/dp/B0GRNF25VN",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wordsearch GRIP",
+    "subtitle": "",
+    "img": "covers/B0GR6M9CMJ.jpg",
+    "href": "https://www.amazon.de/dp/B0GR6M9CMJ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wortfundgrube Deutsch: Band 5",
+    "subtitle": "",
+    "img": "covers/B0GHVG659K.jpg",
+    "href": "https://www.amazon.de/dp/B0GHVG659K",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wortfundgrube Deutsch: Band 4",
+    "subtitle": "",
+    "img": "covers/B0GHVFZYVP.jpg",
+    "href": "https://www.amazon.de/dp/B0GHVFZYVP",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wortfundgrube Deutsch: Band 3",
+    "subtitle": "",
+    "img": "covers/B0GHTWFD2S.jpg",
+    "href": "https://www.amazon.de/dp/B0GHTWFD2S",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wortfundgrube Deutsch: Band 2",
+    "subtitle": "",
+    "img": "covers/B0GHQW91PQ.jpg",
+    "href": "https://www.amazon.de/dp/B0GHQW91PQ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wortfundgrube Deutsch: Band 1",
+    "subtitle": "",
+    "img": "covers/B0GHQBCQS6.jpg",
+    "href": "https://www.amazon.de/dp/B0GHQBCQS6",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Love Seekers: 55 Wortsuchrätsel rund um das Thema Liebe",
+    "subtitle": "",
+    "img": "covers/B0GFVDC1S7.jpg",
+    "href": "https://www.amazon.de/dp/B0GFVDC1S7",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Pflanzen-Suchspaß",
+    "subtitle": "",
+    "img": "covers/B0GDZLX3DR.jpg",
+    "href": "https://www.amazon.de/dp/B0GDZLX3DR",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "die Blumen: abwechslungsreiche Wortsuchrätsel rund um Blumen",
+    "subtitle": "",
+    "img": "covers/B0GDZJRV2D.jpg",
+    "href": "https://www.amazon.de/dp/B0GDZJRV2D",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Sun Seekers: 55 word search puzzles",
+    "subtitle": "",
+    "img": "covers/B0GDWM4CSV.jpg",
+    "href": "https://www.amazon.de/dp/B0GDWM4CSV",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Canecorso Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0GBK3P41D.jpg",
+    "href": "https://www.amazon.de/dp/B0GBK3P41D",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Forest Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0G8HD1MQ4.jpg",
+    "href": "https://www.amazon.de/dp/B0G8HD1MQ4",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Wald Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G8G8G5PZ.jpg",
+    "href": "https://www.amazon.de/dp/B0G8G8G5PZ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Popel Masse Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G8CTFC1G.jpg",
+    "href": "https://www.amazon.de/dp/B0G8CTFC1G",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Chihuahua: Wortsuche-Rätselbuch für Hundefans",
+    "subtitle": "",
+    "img": "covers/B0G5NF42YW.jpg",
+    "href": "https://www.amazon.de/dp/B0G5NF42YW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Spielzeug Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G5L4X52Q.jpg",
+    "href": "https://www.amazon.de/dp/B0G5L4X52Q",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Nussknacker Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G5LJXJLZ.jpg",
+    "href": "https://www.amazon.de/dp/B0G5LJXJLZ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Uffbasse: Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G5LFXGHJ.jpg",
+    "href": "https://www.amazon.de/dp/B0G5LFXGHJ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Kaksation: Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G4WK1KPY.jpg",
+    "href": "https://www.amazon.de/dp/B0G4WK1KPY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Glühwein: Worsuchrätselbuch",
+    "subtitle": "",
+    "img": "covers/B0G4WGT3RY.jpg",
+    "href": "https://www.amazon.de/dp/B0G4WGT3RY",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Katzen 1: Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G4RSK6FL.jpg",
+    "href": "https://www.amazon.de/dp/B0G4RSK6FL",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Katzen 2: Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G4S3LCZX.jpg",
+    "href": "https://www.amazon.de/dp/B0G4S3LCZX",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Katzen 3: Wortsuchrätsel",
+    "subtitle": "",
+    "img": "covers/B0G4S3L3PZ.jpg",
+    "href": "https://www.amazon.de/dp/B0G4S3L3PZ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Pink Cats Vol.4: 55 Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0G44X9M7V.jpg",
+    "href": "https://www.amazon.de/dp/B0G44X9M7V",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Pink Cats Vol.5: 55 Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0G44SYXWZ.jpg",
+    "href": "https://www.amazon.de/dp/B0G44SYXWZ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Pink Cats Vol.6: 55 Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0G44SRW8H.jpg",
+    "href": "https://www.amazon.de/dp/B0G44SRW8H",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "AstroChromatic: The Spectrum Within",
+    "subtitle": "",
+    "img": "covers/B0G23DZDS6.jpg",
+    "href": "https://www.amazon.de/dp/B0G23DZDS6",
+    "category": "Mindfulness",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Japanese Nurikabe Hard: 55 Hard Nurikabe Puzzles | Solutions included",
+    "subtitle": "",
+    "img": "covers/B0G1MLY52X.jpg",
+    "href": "https://www.amazon.de/dp/B0G1MLY52X",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Japanese Nurikabe Very Hard: 55 Very Hard Nurikabe Puzzles | Solutions included",
+    "subtitle": "",
+    "img": "covers/B0G1MFFCDW.jpg",
+    "href": "https://www.amazon.de/dp/B0G1MFFCDW",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Space Nurikabe Very Hard: 55 Very Hard Nurikabe Puzzles | Solutions included",
+    "subtitle": "",
+    "img": "covers/B0FZKW3SSQ.jpg",
+    "href": "https://www.amazon.de/dp/B0FZKW3SSQ",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Your Color: Discover the Meaning Behind the Shades You Love",
+    "subtitle": "",
+    "img": "covers/B0FZBBRPP7.jpg",
+    "href": "https://www.amazon.de/dp/B0FZBBRPP7",
+    "category": "Mindfulness",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Island Hopper * Easy *: 55 Easy Nurikabe Puzzles",
+    "subtitle": "",
+    "img": "covers/B0FXXF1D6S.jpg",
+    "href": "https://www.amazon.de/dp/B0FXXF1D6S",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Rock Climbing 0.3: 55 Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0FWKJX8H2.jpg",
+    "href": "https://www.amazon.de/dp/B0FWKJX8H2",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Rock Climbing 0.4: 55 Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0FWKF36YW.jpg",
+    "href": "https://www.amazon.de/dp/B0FWKF36YW",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Magic Nurikabe * Very Easy *",
+    "subtitle": "",
+    "img": "covers/B0FWD66DJL.jpg",
+    "href": "https://www.amazon.de/dp/B0FWD66DJL",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Magic Nurikabe * Very Hard *",
+    "subtitle": "",
+    "img": "covers/B0FWD4LR53.jpg",
+    "href": "https://www.amazon.de/dp/B0FWD4LR53",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Rock Climbing 0.2: Puzzles That Test Your Grip, Focus, and Climbing Knowledge",
+    "subtitle": "",
+    "img": "covers/B0FWBTJ2R1.jpg",
+    "href": "https://www.amazon.de/dp/B0FWBTJ2R1",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Magic Nurikabe * Hard *",
+    "subtitle": "",
+    "img": "covers/B0FWBVQ2SN.jpg",
+    "href": "https://www.amazon.de/dp/B0FWBVQ2SN",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Magic Nurikabe * Normal *",
+    "subtitle": "",
+    "img": "covers/B0FWBV1DQ3.jpg",
+    "href": "https://www.amazon.de/dp/B0FWBV1DQ3",
+    "category": "Puzzles",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "The Four Little Dragons",
+    "subtitle": "",
+    "img": "covers/B0FVLDK3G4.jpg",
+    "href": "https://www.amazon.de/dp/B0FVLDK3G4",
+    "category": "Children's Books",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Let it Snow!: 50+ Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0FTG315CK.jpg",
+    "href": "https://www.amazon.de/dp/B0FTG315CK",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Festive Finds: 50+ Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0FT2T8KJB.jpg",
+    "href": "https://www.amazon.de/dp/B0FT2T8KJB",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Season's Greetings: 50+ Word Search Puzzles",
+    "subtitle": "",
+    "img": "covers/B0FT2SDDYZ.jpg",
+    "href": "https://www.amazon.de/dp/B0FT2SDDYZ",
+    "category": "Word Search",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "I Am Enough: Notebook",
+    "subtitle": "",
+    "img": "covers/B0FPPZHM5C.jpg",
+    "href": "https://www.amazon.de/dp/B0FPPZHM5C",
+    "category": "Notebooks",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "HexHex Sketchbook: 100 Page Hexagon Sketchbook",
+    "subtitle": "",
+    "img": "covers/B0FCCZVDWC.jpg",
+    "href": "https://www.amazon.de/dp/B0FCCZVDWC",
+    "category": "Notebooks",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
+  },
+  {
+    "title": "Meditations on Mortality: Hexagonal Graph Notebook",
+    "subtitle": "",
+    "img": "covers/B0FC1QRGN8.jpg",
+    "href": "https://www.amazon.de/dp/B0FC1QRGN8",
+    "category": "Notebooks",
+    "author": "Andrea Kramer",
+    "featured": false,
+    "platform": "Amazon"
   }
 ]
-
-
-
-
-
-
-
-
-
