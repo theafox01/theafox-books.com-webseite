@@ -1,10 +1,84 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Theafox Books – Storefront</title>
-  <meta name="description" content="JSON-gesteuerte Übersicht der Theafox-Bücher mit Filter, Suche und externen Kauf-Links." />
+
+  <!-- Primary SEO -->
+  <title>Theafox Books – Books by Andrea &amp; Paul Kramer | Puzzles, Children's Books &amp; More</title>
+  <meta name="description" content="Discover books by Andrea &amp; Paul Kramer: word search puzzles, children's stories, philosophy journals, and mindfulness guides. Browse 400+ titles – available on Amazon and our Payhip shop." />
+  <meta name="author" content="Andrea Kramer, Paul Kramer" />
+  <meta name="keywords" content="Theafox Books, Andrea Kramer, Paul Kramer, word search books, children's books, puzzle books, philosophy books, mindfulness, Payhip, Amazon books, activity books" />
+  <link rel="canonical" href="https://www.theafox-books.com/" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.theafox-books.com/" />
+  <meta property="og:site_name" content="Theafox Books" />
+  <meta property="og:title" content="Theafox Books – Books by Andrea &amp; Paul Kramer" />
+  <meta property="og:description" content="Discover books by Andrea &amp; Paul Kramer: word search puzzles, children's stories, philosophy journals, and mindfulness guides. 400+ titles on Amazon &amp; Payhip." />
+  <meta property="og:image" content="https://www.theafox-books.com/theafox_logo.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Theafox Books – Books by Andrea &amp; Paul Kramer" />
+  <meta name="twitter:description" content="Discover books by Andrea &amp; Paul Kramer: word search puzzles, children's stories, philosophy journals, and mindfulness guides. 400+ titles on Amazon &amp; Payhip." />
+  <meta name="twitter:image" content="https://www.theafox-books.com/theafox_logo.png" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.theafox-books.com/#website",
+        "url": "https://www.theafox-books.com/",
+        "name": "Theafox Books",
+        "description": "Books by Andrea & Paul Kramer – word search puzzles, children's stories, philosophy journals, and mindfulness guides.",
+        "publisher": { "@id": "https://www.theafox-books.com/#organization" },
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": {
+            "@type": "EntryPoint",
+            "urlTemplate": "https://www.theafox-books.com/?q={search_term_string}"
+          },
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.theafox-books.com/#organization",
+        "name": "Theafox Books",
+        "url": "https://www.theafox-books.com/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.theafox-books.com/theafox_logo.png"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "info@theafox-books.com",
+          "contactType": "customer support"
+        },
+        "founder": [
+          {
+            "@type": "Person",
+            "name": "Andrea Kramer",
+            "url": "https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3"
+          },
+          {
+            "@type": "Person",
+            "name": "Paul Kramer",
+            "url": "https://www.amazon.com/stores/Paul-Kramer/author/B0FDL28XWH"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
   <link rel="stylesheet" href="style.css?v=3" />
 </head>
 
@@ -143,6 +217,11 @@
         state.items = items;
         state.cats = [...new Set(items.map(i => i.category).filter(Boolean))].sort();
         buildCategoryOptions(state.cats);
+
+        // Pre-fill search from URL parameter (?q=...) for SearchAction support
+        const urlQ = params.get('q');
+        if(urlQ) byId('q').value = urlQ;
+
         applyFilters();
         //const badge = document.getElementById('sourceBadge');
         //if (badge) badge.textContent = (src === 'inline') ? '⚡ Data source: Inline' : `📂 Datenquelle: ${src}`;
