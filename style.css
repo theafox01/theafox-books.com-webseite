@@ -15,6 +15,37 @@ p.lead{max-width:860px; margin:.75rem auto 1.5rem; color:var(--muted); line-heig
 
 .container{max-width:1200px; margin:0 auto; padding:0 1rem 2.5rem}
 
+.seo-content{
+  max-width:960px;
+  margin:0 auto 1rem;
+  padding:1rem 0 1.25rem;
+  color:var(--muted);
+  line-height:1.6;
+  text-align:center;
+}
+.seo-content h2{
+  margin:0 0 .5rem;
+  color:var(--accent);
+  font-size:1.35rem;
+}
+.seo-content p{margin:.5rem auto .85rem}
+.topic-links{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:.5rem;
+  list-style:none;
+  margin:0;
+  padding:0;
+}
+.topic-links li{
+  border:1px solid var(--ring);
+  border-radius:999px;
+  color:#e8e8e8;
+  padding:.3rem .65rem;
+  font-size:.82rem;
+}
+
 /* Controls */
 .controls{
   display:grid; grid-template-columns:1fr; gap:.75rem;
@@ -92,7 +123,7 @@ select:focus{outline:2px solid var(--accent)}
 .card:hover{transform:translateY(-2px); border-color:#3a3a3a}
 .thumb{aspect-ratio:3/4; width:100%; object-fit:cover; background:#0c0c0c}
 .body{padding:0.9rem 0.9rem 1rem}
-.title{font-size:1.05rem; font-weight:700; line-height:1.25}
+.title{font-size:1.05rem; font-weight:700; line-height:1.25; margin:0}
 .subtitle{font-size:.95rem; color:var(--muted); margin:.35rem 0 .6rem}
 .meta{display:flex; gap:.5rem; flex-wrap:wrap; align-items:center}
 .chip{font-size:.72rem; padding:.25rem .5rem; border:1px solid var(--ring); border-radius:999px; color:#e8e8e8}
@@ -100,6 +131,20 @@ select:focus{outline:2px solid var(--accent)}
 
 .source-badge{ text-align:center; margin-bottom:.5rem; font-size:.9rem; color:var(--muted) }
 .status{ margin-top:.75rem; color:var(--muted); text-align:center }
+.noscript-catalog{
+  margin-top:1rem;
+  padding:1rem;
+  border:1px solid var(--ring);
+  border-radius:8px;
+  background:var(--card);
+  color:var(--muted);
+}
+.noscript-catalog h2{
+  margin:.1rem 0 .5rem;
+  color:var(--accent);
+  font-size:1.2rem;
+}
+.noscript-catalog a{color:var(--accent)}
 
 /* CTA Buttons */
 .cta{margin:2rem 0 0; display:flex; gap:.75rem; flex-wrap:wrap; justify-content:center}
