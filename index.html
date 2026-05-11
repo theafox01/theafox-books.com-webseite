@@ -395,7 +395,11 @@ function render(){
   statusEl.textContent = `${state.view.length} of ${state.items.length} product${state.items.length===1?'':'s'} displayed`;
 }
 
-    ['q','cat','plat','feat'].forEach(id => byId(id).addEventListener('input', applyFilters));
+    ['q','feat'].forEach(id => byId(id).addEventListener('input', applyFilters));
+    ['cat','plat'].forEach(id => byId(id).addEventListener('input', () => {
+      if(byId(id).value) byId('feat').checked = false;
+      applyFilters();
+    }));
 
     loadStore();
   </script>
