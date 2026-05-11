@@ -29,35 +29,6 @@ p.lead{max-width:860px; margin:.75rem auto 1.5rem; color:var(--muted); line-heig
   font-size:1.35rem;
 }
 .seo-content p{margin:.5rem auto .85rem}
-.topic-links{
-  display:flex;
-  flex-wrap:wrap;
-  justify-content:center;
-  gap:.5rem;
-  list-style:none;
-  margin:0;
-  padding:0;
-}
-.topic-links li{
-  border:1px solid var(--ring);
-  border-radius:999px;
-  color:#e8e8e8;
-  padding:.3rem .65rem;
-  font-size:.82rem;
-  cursor:pointer;
-  user-select:none;
-  transition:border-color .18s, color .18s, background .18s;
-}
-.topic-links li:hover{
-  border-color:var(--accent);
-  color:var(--accent);
-}
-.topic-links li.active{
-  background:var(--accent);
-  border-color:var(--accent);
-  color:#111;
-  font-weight:600;
-}
 
 /* Controls */
 .controls{

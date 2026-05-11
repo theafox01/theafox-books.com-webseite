@@ -134,19 +134,12 @@
     <section class="seo-content" aria-labelledby="catalog-heading">
       <h2 id="catalog-heading">Theafox Books catalogue</h2>
       <p>
-        Browse a growing collection of word search puzzle books, children's stories, mindfulness titles,
-        notebooks, philosophy journals, health guides, and digital downloads by Andrea Kramer and Paul Kramer.
+        Browse a growing collection of <strong>word search books</strong>, <strong>children's books</strong>,
+        <strong>puzzle books</strong>, <strong>mindfulness</strong> titles, <strong>notebooks</strong>,
+        and <strong>digital downloads</strong> by Andrea Kramer and Paul Kramer.
         The catalogue includes Amazon KDP books and Payhip resources for readers, families, puzzle fans,
         creative learners, and curious minds.
       </p>
-      <ul class="topic-links" aria-label="Popular book categories">
-        <li data-cat="Word Search" role="button" tabindex="0">Word search books</li>
-        <li data-cat="Children's Books" role="button" tabindex="0">Children's books</li>
-        <li data-cat="Puzzles" role="button" tabindex="0">Puzzle books</li>
-        <li data-cat="Mindfulness" role="button" tabindex="0">Mindfulness</li>
-        <li data-cat="Notebooks" role="button" tabindex="0">Notebooks</li>
-        <li data-plat="Payhip" role="button" tabindex="0">Digital downloads</li>
-      </ul>
     </section>
 
     <section class="controls" aria-label="Filter und Suche">
@@ -403,26 +396,6 @@ function render(){
 }
 
     ['q','cat','plat','feat'].forEach(id => byId(id).addEventListener('input', applyFilters));
-
-    document.querySelectorAll('.topic-links li').forEach(li => {
-      const activate = () => {
-        const isActive = li.classList.contains('active');
-        document.querySelectorAll('.topic-links li').forEach(l => l.classList.remove('active'));
-        if (!isActive) {
-          li.classList.add('active');
-          byId('cat').value = li.dataset.cat || '';
-          byId('plat').value = li.dataset.plat || '';
-        } else {
-          byId('cat').value = '';
-          byId('plat').value = '';
-        }
-        byId('feat').checked = false;
-        applyFilters();
-        document.querySelector('.controls').scrollIntoView({ behavior: 'smooth', block: 'start' });
-      };
-      li.addEventListener('click', activate);
-      li.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); activate(); } });
-    });
 
     loadStore();
   </script>
