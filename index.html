@@ -398,7 +398,7 @@
 
     // ── Featured card ─────────────────────────────────────────────
     function populateFeaturedCard(items) {
-      const featured = items.find(x => x.featured);
+      const featured = items.find(x => x.featured && /k.?pop/i.test(x.title)) || items.find(x => x.featured);
       if (!featured) return;
       const card = byId('featuredCard');
       card.setAttribute('aria-hidden', 'false');

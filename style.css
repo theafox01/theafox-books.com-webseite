@@ -155,7 +155,7 @@ p { margin-top: 0; }
   --hero-gap: 28px;
   --hero-title-width: clamp(480px, 42vw, 545px);
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(280px, 0.95fr);
+  grid-template-columns: minmax(0, 1fr) minmax(200px, 260px);
   gap: clamp(24px, 4vw, 60px);
   align-items: center;
   padding: clamp(28px, 4vw, 48px) clamp(18px, 5vw, 72px) clamp(30px, 4vw, 52px);
