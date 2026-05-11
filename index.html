@@ -396,10 +396,14 @@ function render(){
 }
 
     ['q','feat'].forEach(id => byId(id).addEventListener('input', applyFilters));
-    ['cat','plat'].forEach(id => byId(id).addEventListener('input', () => {
-      if(byId(id).value) byId('feat').checked = false;
+    byId('cat').addEventListener('input', () => {
+      if(byId('cat').value) { byId('plat').value = ''; byId('feat').checked = false; }
       applyFilters();
-    }));
+    });
+    byId('plat').addEventListener('input', () => {
+      if(byId('plat').value) { byId('cat').value = ''; byId('feat').checked = false; }
+      applyFilters();
+    });
 
     loadStore();
   </script>
