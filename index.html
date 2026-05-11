@@ -13,7 +13,7 @@
   <link rel="alternate" hreflang="en" href="https://www.theafox-books.com/" />
   <link rel="alternate" hreflang="x-default" href="https://www.theafox-books.com/" />
   <meta name="robots" content="index, follow" />
-  <meta name="theme-color" content="#0e0e0e" />
+  <meta name="theme-color" content="#f7f3ea" />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
@@ -116,59 +116,119 @@
   }
   </script>
 
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
 </head>
 
 <body>
-  <header>
-    <img class="logo" src="theafox_logo.jpg" alt="Theafox Books Logo" onerror="this.style.display='none'" />
-    <h1>Welcome to the world of Theafox Books</h1>
-    <p class="lead">
-      Stories, guides, and ideas with heart, imagination, and depth.<br>
-      At Theafox Books, created by Andrea and Paul Kramer, you’ll find inspiring reflections, creative puzzle and learning tools, and beautifully illustrated tales – plus unique extras and digital downloads in our shop.<br>
-      A growing collection for curious minds, little explorers, and big dreamers alike.
-    </p>
+
+  <!-- Topbar -->
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Theafox Books – Home">
+      <span class="brand-mark">
+        <img src="theafox_logo.jpg" alt="" />
+      </span>
+      <span>
+        <strong>THEAFOX BOOKS</strong>
+        <small>Books by Andrea &amp; Paul Kramer</small>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3" target="_blank" rel="noopener">Andrea on Amazon</a>
+      <a href="https://www.amazon.com/stores/Paul-Kramer/author/B0FDL28XWH" target="_blank" rel="noopener">Paul on Amazon</a>
+      <a href="https://payhip.com/Theafox" target="_blank" rel="noopener">Payhip Shop</a>
+    </nav>
+    <div class="topbar-actions">
+      <a class="button button-ghost" href="mailto:info@theafox-books.com">Contact</a>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="seo-content" aria-labelledby="catalog-heading">
-      <h2 id="catalog-heading">Theafox Books catalogue</h2>
-      <p>
-        Browse a growing collection of <strong>word search books</strong>, <strong>children's books</strong>,
-        <strong>puzzle books</strong>, <strong>mindfulness</strong> titles, <strong>notebooks</strong>,
-        and <strong>digital downloads</strong> by Andrea Kramer and Paul Kramer.
-        The catalogue includes Amazon KDP books and Payhip resources for readers, families, puzzle fans,
-        creative learners, and curious minds.
-      </p>
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="hero-brand-lockup">
+          <div class="logo-card">
+            <img src="theafox_logo.jpg" alt="Theafox Books Logo" />
+          </div>
+          <div class="hero-title-group">
+            <p class="hero-eyebrow">Word Search, Children's Books &amp; More</p>
+            <h1 id="hero-title"><span>THEAFOX</span><span>BOOKS</span></h1>
+          </div>
+        </div>
+        <p class="lead">
+          Stories, puzzles, and ideas with heart — by Andrea and Paul Kramer.
+          A growing collection of <strong>word search books</strong>, <strong>children's stories</strong>,
+          <strong>mindfulness</strong> titles, <strong>notebooks</strong>, and <strong>digital downloads</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#catalog">Browse Catalogue</a>
+          <a class="button button-secondary" href="https://payhip.com/Theafox" target="_blank" rel="noopener">Payhip Shop</a>
+        </div>
+      </div>
+
+      <article class="featured-book-card" id="featuredCard" aria-hidden="true" aria-labelledby="featuredTitle">
+        <div class="card-label">
+          <span class="status-dot"></span>
+          Featured Book
+        </div>
+        <img class="featured-cover" id="featuredCover" src="" alt="" loading="lazy" />
+        <h2 class="featured-title" id="featuredTitle"></h2>
+        <p class="featured-subtitle" id="featuredSubtitle"></p>
+        <div class="card-actions">
+          <a class="button button-primary" id="featuredLink" href="#" target="_blank" rel="noopener">Buy now</a>
+        </div>
+      </article>
     </section>
 
-    <section class="controls" aria-label="Filter und Suche">
-      <div class="field" title="Produkte durchsuchen">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-          <path d="M21 21l-4.35-4.35" stroke="#777" stroke-width="2" stroke-linecap="round"/>
-          <circle cx="11" cy="11" r="7" stroke="#777" stroke-width="2" fill="none"/>
-        </svg>
-        <input id="q" type="search" placeholder="Suchen nach Titel, Untertitel, Autor…" autocomplete="off" />
+    <!-- Catalogue -->
+    <section class="section section-light" id="catalog" aria-labelledby="catalog-heading">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">Browse the full catalogue</p>
+          <h2 id="catalog-heading">All Books</h2>
+          <p>
+            Over 200 titles on Amazon KDP and Payhip — word search books, children's stories,
+            mindfulness guides, notebooks, and digital downloads by Andrea Kramer and Paul Kramer.
+          </p>
+        </div>
+        <div class="controls-right">
+          <div class="search-wrap">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+              <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2" fill="none"/>
+            </svg>
+            <input id="q" type="search" placeholder="Search title, author…" autocomplete="off" aria-label="Search books" />
+          </div>
+          <div class="filter-stack">
+            <div class="filter-label">Platform</div>
+            <div class="segmented" role="group" aria-label="Filter by platform">
+              <button class="segment active" type="button" data-plat="">All</button>
+              <button class="segment" type="button" data-plat="Amazon">Amazon</button>
+              <button class="segment" type="button" data-plat="Payhip">Payhip</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="field">
-        <label for="cat">Kategorie</label>
-        <select id="cat" aria-label="Kategorie filtern"><option value="">All</option></select>
-      </div>
-      <div class="field">
-        <label for="plat">Plattform</label>
-        <select id="plat" aria-label="Plattform filtern"><option value="">All</option><option>Amazon</option><option>Payhip</option></select>
-      </div>
-      <label class="toggle" title="Show only highlights">
-        <input id="feat" type="checkbox" checked /> Show only highlights
-      </label>
-    </section>
 
-    <section style="margin-top:1rem">
-      <div id="sourceBadge" style="text-align:center; margin-bottom:.5rem; font-size:.9rem; color:var(--muted)"></div>
-      <div id="storeGrid" class="grid" role="list" aria-label="Produkte"></div>
+      <!-- Category chips -->
+      <div class="cat-chips" id="catChips" role="group" aria-label="Filter by category">
+        <button class="cat-chip active" type="button" data-cat="">All categories</button>
+      </div>
+
+      <!-- Highlights toggle -->
+      <div class="highlights-row">
+        <label class="toggle-wrap">
+          <input id="feat" type="checkbox" />
+          Highlights only
+        </label>
+      </div>
+
+      <div id="storeGrid" class="book-grid" role="list" aria-label="Books"></div>
+
       <noscript>
         <div class="noscript-catalog">
-          <h2>Featured Theafox Books links</h2>
+          <h2>Theafox Books – Direct Links</h2>
           <p>JavaScript is required for the full searchable catalogue. These links remain available for search engines and visitors without JavaScript.</p>
           <ul>
             <li><a href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3">Andrea Kramer's books on Amazon Germany</a></li>
@@ -178,30 +238,26 @@
           </ul>
         </div>
       </noscript>
-      <div id="status" style="margin-top:.75rem; color:var(--muted); text-align:center"></div>
+
+      <div id="status" class="status"></div>
     </section>
 
-    <!-- CTA Buttons -->
-    <nav class="cta" aria-label="Weiterführende Links">
-      <a class="btn" href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3" target="_blank" rel="noopener">Discover Andrea's Books</a>
-      <a class="btn" href="https://www.amazon.com/stores/Paul-Kramer/author/B0FDL28XWH" target="_blank" rel="noopener">Explore Paul's Books</a>
-      <a class="btn" href="https://payhip.com/Theafox" target="_blank" rel="noopener">Discover More in our Onlineshop</a>
-      <a class="btn" href="https://www.amazon.de/stores/Andrea-Kramer/author/B0F6LS5XR3/allbooks" target="_blank" rel="noopener">Browse Theafox Word Search Books</a>
-      <a class="btn secondary" href="mailto:info@theafox-books.com">Contact Us</a>
-    </nav>
   </main>
 
-  <footer>
-    © <span id="y"></span> Theafox Books – A brand by Andrea & Paul Kramer
-    <br>
-    <a href="legal-notice.html">Legal Notice</a> · <a href="privacy-policy.html">Privacy Policy</a>
+  <footer class="footer">
+    <span>© <span id="y"></span> Theafox Books – Andrea &amp; Paul Kramer</span>
+    <span>
+      <a href="legal-notice.html">Legal Notice</a>
+      &nbsp;·&nbsp;
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </span>
   </footer>
 
-  <!-- Inline JSON Daten -->
+  <!-- Inline fallback JSON -->
   <script id="storeData" type="application/json">
   [
     {
-      "title": "The Stoic’s Notebook",
+      "title": "The Stoic's Notebook",
       "subtitle": "Daily reflections for clarity and calm.",
       "img": "covers/stoics-notebook.jpg",
       "href": "https://www.amazon.de/dp/B0FDB85T29",
@@ -233,103 +289,182 @@
   ]
   </script>
 
-  <!-- JS Logik -->
   <script>
-    const byId = (id) => document.getElementById(id);
+    const byId = id => document.getElementById(id);
     const grid = byId('storeGrid');
     const statusEl = byId('status');
-    const y = byId('y'); y.textContent = new Date().getFullYear();
+    byId('y').textContent = new Date().getFullYear();
 
     const params = new URLSearchParams(location.search);
-    //let DATA_SRC = params.get('data') || 'inline';
-    let DATA_SRC = params.get('data') || 'theafox_books.json';
+    const DATA_SRC = params.get('data') || 'theafox_books.json';
 
-    const state = { items: [], view: [], cats: [] };
+    const state = { items: [], view: [], cats: [], selectedCat: '', selectedPlat: '' };
 
-    async function loadStore(src = DATA_SRC){
-      grid.innerHTML = '<div style="padding:1rem; text-align:center; color:#d4d4d4">Loading products…</div>';
+    // ── Load ──────────────────────────────────────────────────────
+    async function loadStore(src = DATA_SRC) {
+      grid.innerHTML = '<div class="no-results">Loading books…</div>';
       statusEl.textContent = '';
-      try{
+      try {
         let items = [];
-        if(src === 'inline'){
-          const inlineEl = document.getElementById('storeData');
-          items = JSON.parse(inlineEl.textContent.trim());
+        if (src === 'inline') {
+          items = JSON.parse(byId('storeData').textContent.trim());
         } else {
           const res = await fetch(src, { cache: 'no-store' });
-          if(!res.ok) throw new Error('HTTP '+res.status);
+          if (!res.ok) throw new Error('HTTP ' + res.status);
           items = await res.json();
         }
-
-        if(!Array.isArray(items)) throw new Error('JSON muss ein Array sein');
+        if (!Array.isArray(items)) throw new Error('JSON must be an array');
 
         items.forEach((it, idx) => {
-          it._ord = idx; // Original-Index aus JSON merken
-          it.title = it.title || 'Unbenanntes Produkt';
+          it._ord = idx;
+          it.title    = it.title    || 'Untitled';
           it.subtitle = it.subtitle || '';
-          it.img = it.img || 'covers/placeholder.jpg';
-          it.href = it.href || '#';
+          it.img      = it.img      || 'covers/placeholder.jpg';
+          it.href     = it.href     || '#';
           it.category = it.category || '';
-          it.author = it.author || '';
+          it.author   = it.author   || '';
           it.platform = it.platform || '';
           it.featured = Boolean(it.featured);
         });
 
         state.items = items;
-        state.cats = [...new Set(items.map(i => i.category).filter(Boolean))].sort();
-        buildCategoryOptions(state.cats);
-        renderStructuredData(items);
+        state.cats  = [...new Set(items.map(i => i.category).filter(Boolean))].sort();
 
-        // Pre-fill search from URL parameter (?q=...) for SearchAction support
+        buildCategoryChips(state.cats);
+        renderStructuredData(items);
+        populateFeaturedCard(items);
+
         const urlQ = params.get('q');
-        if(urlQ) byId('q').value = urlQ;
+        if (urlQ) byId('q').value = urlQ;
 
         applyFilters();
-        //const badge = document.getElementById('sourceBadge');
-        //if (badge) badge.textContent = (src === 'inline') ? '⚡ Data source: Inline' : `📂 Datenquelle: ${src}`;
-      }catch(err){
+      } catch (err) {
         grid.innerHTML = '';
-        const hint = location.protocol === 'file:' ? '<br><small>Tipp: Nutze ?data=inline, um die Inline-Daten zu verwenden.</small>' : '';
-        statusEl.innerHTML = `<span style="color:#f3c77a">Fehler beim Laden (${src}).</span>${hint}`;
+        statusEl.innerHTML = `<span style="color:#c0392b">Error loading catalogue (${src}).</span>`;
         console.error(err);
       }
     }
 
-    function buildCategoryOptions(cats){
-      const sel = byId('cat');
-      const current = sel.value;
-      sel.innerHTML = '<option value=""></option>' + cats.map(c => `<option>${escapeHtml(c)}</option>`).join('');
-      sel.firstElementChild.textContent = 'All';
-      if(cats.includes(current)) sel.value = current; else sel.value = '';
+    // ── Category chips ────────────────────────────────────────────
+    function buildCategoryChips(cats) {
+      const container = byId('catChips');
+      container.innerHTML = '';
+
+      const allBtn = makeChip('', 'All categories', true);
+      container.appendChild(allBtn);
+
+      cats.forEach(c => container.appendChild(makeChip(c, c, false)));
     }
 
-    function escapeHtml(s){
-      return String(s).replace(/[&<>\"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;','\'':'&#39;'}[m]));
+    function makeChip(cat, label, active) {
+      const btn = document.createElement('button');
+      btn.className = 'cat-chip' + (active ? ' active' : '');
+      btn.type = 'button';
+      btn.dataset.cat = cat;
+      btn.textContent = label;
+      btn.addEventListener('click', () => selectCat(cat));
+      return btn;
     }
 
-    function card(item){
-      const chips = [];
-      if(item.category) chips.push(`<span class="chip">${escapeHtml(item.category)}</span>`);
-      if(item.author) chips.push(`<span class="chip">${escapeHtml(item.author)}</span>`);
+    function selectCat(cat) {
+      state.selectedCat = cat;
+      document.querySelectorAll('.cat-chip').forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
+      if (cat) {
+        state.selectedPlat = '';
+        updatePlatSegments();
+        byId('feat').checked = false;
+      }
+      applyFilters();
+    }
 
+    // ── Platform segments ─────────────────────────────────────────
+    function updatePlatSegments() {
+      document.querySelectorAll('.segment[data-plat]').forEach(b => b.classList.toggle('active', b.dataset.plat === state.selectedPlat));
+    }
+
+    document.querySelectorAll('.segment[data-plat]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const plat = btn.dataset.plat;
+        state.selectedPlat = plat;
+        updatePlatSegments();
+        if (plat) {
+          state.selectedCat = '';
+          document.querySelectorAll('.cat-chip').forEach(b => b.classList.toggle('active', b.dataset.cat === ''));
+          byId('feat').checked = false;
+        }
+        applyFilters();
+      });
+    });
+
+    // ── Featured card ─────────────────────────────────────────────
+    function populateFeaturedCard(items) {
+      const featured = items.find(x => x.featured);
+      if (!featured) return;
+      const card = byId('featuredCard');
+      card.setAttribute('aria-hidden', 'false');
+      byId('featuredCover').src = featured.img;
+      byId('featuredCover').alt = featured.title + ' – Cover';
+      byId('featuredTitle').textContent = featured.title;
+      byId('featuredSubtitle').textContent = featured.subtitle || featured.category || '';
+      const link = byId('featuredLink');
+      link.href = featured.href;
+      link.textContent = featured.platform === 'Payhip' ? 'Buy in Shop' : 'Buy on Amazon';
+    }
+
+    // ── Filters ───────────────────────────────────────────────────
+    function applyFilters() {
+      const q         = byId('q').value.trim().toLowerCase();
+      const cat       = state.selectedCat;
+      const plat      = state.selectedPlat;
+      const onlyFeat  = byId('feat').checked;
+
+      let list = state.items.slice();
+      if (onlyFeat) list = list.filter(x => x.featured);
+      if (cat)      list = list.filter(x => (x.category || '') === cat);
+      if (plat)     list = list.filter(x => (x.platform || '') === plat);
+      if (q)        list = list.filter(x => [x.title, x.subtitle, x.author, x.category].some(v => (v || '').toLowerCase().includes(q)));
+
+      list.sort((a, b) => (Number(b.featured) - Number(a.featured)) || (a._ord - b._ord));
+
+      state.view = list;
+      render();
+    }
+
+    // ── Render ────────────────────────────────────────────────────
+    function render() {
+      if (!state.view.length) {
+        grid.innerHTML = '<div class="no-results">No books found.</div>';
+        statusEl.textContent = '';
+        return;
+      }
+      grid.innerHTML = state.view.map(bookCard).join('');
+      statusEl.textContent = `${state.view.length} of ${state.items.length} book${state.items.length === 1 ? '' : 's'} shown`;
+    }
+
+    function bookCard(item) {
       return `
-        <a class="card" role="listitem" href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(item.title)} open">
-          <img class="thumb" loading="lazy" src="${item.img}" alt="${escapeHtml(item.title)} – Cover" />
-          <div class="body">
-            <h2 class="title">${escapeHtml(item.title)}</h2>
-            ${item.subtitle ? `<div class="subtitle">${escapeHtml(item.subtitle)}</div>` : ''}
-            <div class="meta">
-              ${chips.join('')}
-              ${item.badge ? `<span class="badge">${escapeHtml(item.badge)}</span>` : ''}
-              ${item.platform ? `<span class="chip">${escapeHtml(item.platform)}</span>` : ''}
+        <a class="book-card" role="listitem" href="${item.href}" target="_blank" rel="noopener noreferrer" aria-label="${escapeHtml(item.title)}">
+          <img class="book-cover" loading="lazy" src="${item.img}" alt="${escapeHtml(item.title)} – Cover" />
+          <div class="book-body">
+            <h3 class="book-title">${escapeHtml(item.title)}</h3>
+            ${item.subtitle ? `<div class="book-subtitle">${escapeHtml(item.subtitle)}</div>` : ''}
+            <div class="book-meta">
+              ${item.category ? `<span class="book-badge">${escapeHtml(item.category)}</span>` : ''}
+              ${item.author   ? `<span class="book-chip">${escapeHtml(item.author)}</span>` : ''}
+              ${item.platform ? `<span class="book-chip">${escapeHtml(item.platform)}</span>` : ''}
             </div>
           </div>
         </a>`;
     }
 
-    function renderStructuredData(items){
-      const old = document.getElementById('bookItemListSchema');
-      if(old) old.remove();
+    function escapeHtml(s) {
+      return String(s).replace(/[&<>"']/g, m => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+    }
 
+    // ── Structured data ───────────────────────────────────────────
+    function renderStructuredData(items) {
+      const old = document.getElementById('bookItemListSchema');
+      if (old) old.remove();
       const itemList = {
         '@context': 'https://schema.org',
         '@type': 'ItemList',
@@ -352,7 +487,6 @@
           }
         }))
       };
-
       const script = document.createElement('script');
       script.type = 'application/ld+json';
       script.id = 'bookItemListSchema';
@@ -360,54 +494,12 @@
       document.head.appendChild(script);
     }
 
-    function applyFilters(){
-      const q = byId('q').value.trim().toLowerCase();
-      const cat = byId('cat').value;
-      const plat = byId('plat').value;
-      const onlyFeat = byId('feat').checked;
-
-      let list = state.items.slice();
-
-      if(onlyFeat) list = list.filter(x => x.featured);
-      if(cat) list = list.filter(x => (x.category||'') === cat);
-      if(plat) list = list.filter(x => (x.platform||'') === plat);
-      if(q){
-        list = list.filter(x => [x.title,x.subtitle,x.author,x.category].some(v => (v||'').toLowerCase().includes(q)));
-      }
-
-      // Featured zuerst, dann JSON-Reihenfolge
-      list.sort((a,b) =>
-        (Number(b.featured) - Number(a.featured)) ||
-        (a._ord - b._ord)
-      );
-
-      state.view = list;
-      render();
-    }
-
-function render(){
-  if(!state.view.length){
-    grid.innerHTML = `<div style="padding:1rem; text-align:center; color:#d4d4d4">No products found.</div>`;
-    statusEl.textContent = '';
-    return;
-  }
-  grid.innerHTML = state.view.map(card).join('');
-  statusEl.textContent = `${state.view.length} of ${state.items.length} product${state.items.length===1?'':'s'} displayed`;
-}
-
-    ['q','feat'].forEach(id => byId(id).addEventListener('input', applyFilters));
-    byId('cat').addEventListener('input', () => {
-      if(byId('cat').value) { byId('plat').value = ''; byId('feat').checked = false; }
-      applyFilters();
-    });
-    byId('plat').addEventListener('input', () => {
-      if(byId('plat').value) { byId('cat').value = ''; byId('feat').checked = false; }
-      applyFilters();
-    });
+    // ── Event listeners ───────────────────────────────────────────
+    byId('q').addEventListener('input', applyFilters);
+    byId('feat').addEventListener('input', applyFilters);
 
     loadStore();
   </script>
+
 </body>
 </html>
-
-
