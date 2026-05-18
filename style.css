@@ -392,12 +392,21 @@ p { margin-top: 0; }
 .segment.active { background: var(--night); color: var(--gold-2); }
 .segment:hover:not(.active) { background: rgba(201, 154, 72, 0.12); color: var(--ink); }
 
+.catalog-filter-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 0 0 16px;
+}
+
 /* Category chips */
 .cat-chips {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
-  margin: 0 0 16px;
+  flex: 1;
+  min-width: 0;
+  margin: 0;
 }
 .cat-chip {
   display: inline-flex;
@@ -430,7 +439,9 @@ p { margin-top: 0; }
   display: flex;
   align-items: center;
   gap: 16px;
-  margin-bottom: 16px;
+  flex: 0 0 auto;
+  min-height: 34px;
+  margin: 0;
 }
 .toggle-wrap {
   display: flex;
@@ -596,6 +607,18 @@ p { margin-top: 0; }
 
 @media (max-width: 900px) {
   .book-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+
+  .catalog-filter-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .cat-chips {
+    order: 1;
+    width: 100%;
+  }
+  .highlights-row {
+    order: 2;
+  }
 }
 
 @media (max-width: 580px) {

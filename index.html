@@ -211,17 +211,19 @@
         </div>
       </div>
 
-      <!-- Category chips -->
-      <div class="cat-chips" id="catChips" role="group" aria-label="Filter by category">
-        <button class="cat-chip active" type="button" data-cat="">All categories</button>
-      </div>
+      <div class="catalog-filter-row">
+        <!-- Highlights toggle -->
+        <div class="highlights-row">
+          <label class="toggle-wrap">
+            <input id="feat" type="checkbox" />
+            Highlights only
+          </label>
+        </div>
 
-      <!-- Highlights toggle -->
-      <div class="highlights-row">
-        <label class="toggle-wrap">
-          <input id="feat" type="checkbox" />
-          Highlights only
-        </label>
+        <!-- Category chips -->
+        <div class="cat-chips" id="catChips" role="group" aria-label="Filter by category">
+          <button class="cat-chip active" type="button" data-cat="">All categories</button>
+        </div>
       </div>
 
       <div id="storeGrid" class="book-grid" role="list" aria-label="Books"></div>
